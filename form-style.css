@@ -1,0 +1,95 @@
+.GreetingContainer {
+	display: none;
+}
+
+.AgencyNameLabel {
+    font-weight: bold;
+    color: #033649;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #033649;
+	font-size: 18px;
+}
+
+.LanguageLabelContainer {
+	color: #033649;
+    font-weight: bold;
+}
+
+.WelcomeCaptionContainer, .WelcomeEntryRequiredContainer {
+    width: 180px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+	border-radius: none;
+	box-shadow: none;
+	border: 1px solid #059194;
+	width: 285px;
+}
+
+select {
+	border-radius: none;
+	box-shadow: none;
+	border: 1px solid #059194;
+}
+
+
+.StepSubContentContainer {
+    padding-top: 10px;
+    padding-left: -56px;
+}
+
+input#ctl00_CPH_PhoneEntry {
+    width: 100px;
+}
+
+.SmallButton {
+	text-align: center;
+    text-transform: uppercase;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    display: block;
+    margin: 20px auto;
+    font-weight: 900;
+    width: 175px;
+    background-color: #033649;
+    border-radius: 50%;
+}
+
+a#ctl00_AgencyContactEmailLink {
+    text-decoration: none;
+    color: #059194;
+    font-family: 'Open Sans', sans-serif;
+     }
+
+.HomeLink {
+	text-decoration: none;
+    color: #059194;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.HomeLink:visited{
+	text-decoration: none;
+    color: #059194;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.StepLabel {
+    color: #fff;
+    font-weight: bold;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+}
+
+.Selection {
+    background-color: #033649;
+}
+
+body * {
+    box-shadow: none !important;
+    border-radius: 0px !important;
+}

@@ -1,0 +1,4102 @@
+* 
+{  
+  margin : 0px;
+  padding : 0px;
+}
+
+body 
+{
+  font-family: 'Open Sans', sans-serif;
+  color: #033649;
+  font-size: 18px;
+  font-size : 13px;
+  margin : 0px;
+  padding : 0px;
+  background-color : #231f20;
+  min-width : 750px;
+  max-width : 1280px;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+html { height : 100%; }
+
+h1
+{
+  font-weight : bold;
+  font-size : 1.4em;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #059194;
+}
+
+body * {
+    box-shadow: none !important;
+    /* background-color: #eee; */
+    font-size: 18px;
+}
+
+span#ctl00_CPH_EmailAddressLabel {
+    font-weight: bold;
+}
+
+h2
+{
+  font-weight : bold;
+  font-size : 1.0em;
+}
+
+input::-moz-focus-inner /*Remove button padding in FF*/
+{ 
+  border: 0;
+  padding: 0;
+}
+
+/*Remove microsoft "clear" button on date entries*/
+.DateEntry::-ms-clear {display: none; width:0; height:0;} 
+
+input[type="text"],
+input[type="password"]
+{
+  border-radius : 0px;
+  padding : 3px;
+  box-shadow : inset 0px 0px 10px #E0E0E0;
+  border: 1px #059194 solid;
+  margin : 0px;
+  font-family : Helvetica, Arial, Sans-Serif;
+  font-size : 1.0em;
+}
+
+option {padding-right : 10px;}
+
+select
+{
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 0px;
+  padding-left : 4px;
+  padding-right : 4px;
+  padding-top : 2px;
+  padding-bottom : 2px;
+  border: 1px #059194 solid;
+  box-shadow : inset 0px 0px 10px #E0E0E0;
+  font-size : 1.0em;
+}
+
+div.UpdateProgressContainer
+{
+  position : fixed;
+  left : 50%;
+  top : 50%;
+  width : 300px;
+  height : 90px;
+  margin-left : -150px;
+  margin-top : -45px;
+  padding-top : 27px;
+  background-color : white;
+  border : none;
+  box-shadow : 0px 0px 6px #808080;
+  border-radius : 5px;
+  text-align : center;
+  font-weight : bold;  
+  color : black;
+  filter : alpha(opacity = 100);
+  z-index : 9999999;
+  border : 1px silver solid;
+}
+
+div#ctl00_CPH_CarMakePanel {
+    padding: 20px 10px;
+}
+
+div.UpdateProgressBackground
+{
+  position : fixed;
+  background-color : white;
+  left : 0px;
+  top : 0px;
+  width : 100%;
+  height : 100%;
+  z-index : 9999998;
+  opacity : 0.0;
+  filter : alpha(opacity = 0);
+}
+
+div.ProgressExtraContainer
+{
+  width : 28px;
+  height : 28px;
+  margin-left : auto;
+  margin-right : auto;
+  background-image : url(images/spinner.gif);
+}
+
+.MainContainer
+{
+  margin-left : auto;
+  margin-right : auto;
+}
+
+.AgencyContactHeaderContainer { display : none; }
+
+.AgencyNameLabel { font-weight : bold;
+    color: #033649;
+    font-family: 'Open Sans', sans-serif; }
+
+.MainExtraContainer1 { clear : both; }
+
+.HeaderContainer
+{
+  position : relative;
+}
+
+.AgencyInfoContainer { display : none; }
+
+.AgencyInfo
+{
+  margin : 0px;
+  text-decoration: none;
+}
+
+.HomeLink
+{
+  text-decoration : none;
+  color: #059194;
+}
+
+.HomeLink:Visited
+{
+  text-decoration : none;
+  color: #059194;
+}
+
+.HomeLink:Hover
+{
+  text-decoration : none;
+  color: #059194;
+}
+
+.PageContentExtraContainer1
+{
+  clear : both;  
+}
+
+.StepNavContainer
+{
+}
+
+.StepListContainer
+{
+  margin-top : 5px;
+  padding-bottom : 15px;
+  position : relative;
+  height : 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px; 
+}
+
+.AgencyContactContainer
+{
+  position : absolute;
+  width : 200px;
+  top : 0px;
+  left : 0px;
+  padding : 0px;
+  margin-top : 15px;
+  margin-left : 10px;
+  margin-right : 10px;
+  /* background: #fff; */
+}
+
+.AgencyContactInfoHeader
+{
+  font-weight : bold;
+}
+
+.PageContentContainer
+{
+  border-bottom-right-radius : 15px;
+  border-bottom-left-radius : 15px;  
+}
+
+.StepList
+{
+  z-index : 10;
+  text-align: justify;
+  display: inline-block;
+  min-width: 640px;
+  max-width: 775px; 
+  padding-top: 10px; 
+}
+
+.StepListHeaderContainer
+{
+  text-align : left;
+  background-color : Navy;
+  color : White;
+}
+
+.StepNavHeaderContainer
+{
+  display : none;
+}
+
+.AgencyContactInfoContainer
+{
+  margin : 10px;
+  padding-bottom : 10px;
+  z-index : 9999;
+  position:relative;
+}
+
+.StepListItem
+{  
+  display: inline-block;
+  vertical-align: top;
+  height: 16px;
+  margin-top: 5px;
+  z-index: 1;
+  width: 40px; 
+}
+
+.StepExtraContainer1 {
+  width: 100% !important;
+  display: inline-block;
+  line-height: 0;
+  font-size: 0; 
+}
+
+.StepLabel
+{
+  font-weight : bold;
+  color: #fff;
+}
+
+.StepLine
+{
+  background-color : black;
+  margin-left: 2%;
+  height : 1px;
+  z-index: -1;
+  width: 96%;  
+  min-width: 650px;
+  max-width: 920px;
+  margin-top: -19px; 
+}
+
+.StepListItemContainer {
+  display: inline;
+  z-index: 1;
+  position: relative; 
+}
+
+.StepSubLabelContainer
+{
+  text-align : center;
+  font-size : 0.8em;
+  margin-top : 2px;
+}
+
+.StepLabelContainer
+{
+  box-shadow : 0px 0px 6px #808080;
+  width : 18px;
+  height : 18px;
+  margin-left : auto;
+  margin-right : auto;
+  text-align : center;
+  line-height : 18px;
+  background-color: #033649;
+  /* border : 1px black solid; */
+  color: #fff;
+}
+
+.StepLabelContainerDisabled
+{
+  background-color : #033649;
+}
+
+.StepLabelContainerCurrent { background-color : #bdd5e6;   }
+
+.StepLabelCurrent { color : #fff; }
+
+.StepSubLabelCurrent {color: #033648;font-weight: normal;font-family: "museo-slab",serif;font-style: normal;font-size: 18px;}
+
+.StepListItemCurrent {}
+
+.StepListItemDisabled
+{
+  color : Gray;
+}
+
+.StepSubLabelDisabled, .StepLabelDisabled
+{
+  color: #fff;
+  font-weight : normal;
+  font-family: "museo-slab",serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.StepCaption { display : none; }
+
+.StepHeaderContainer
+{
+  display : none;
+  text-align : center;
+  padding-top : 10px;
+  padding-bottom : 10px;
+}
+
+.StepCaptionLabel
+{
+  font-style : italic;  
+}
+
+.FooterContainer
+{
+  font-size : 0.8em;
+  text-align : center;
+  margin-left : 10%;
+  padding-top: 15px; 
+  padding-bottom : 15px;
+  border-bottom-right-radius : 15px;
+  clear : both;
+  position: absolute;
+  width: 750px; 
+  margin-top: 40px;
+}
+
+.StepContentContainer 
+{
+  position : relative;
+  padding-left : 10px;
+  padding-right : 10px;
+}
+
+.StepSubContentContainer
+{
+  padding-top : 10px;
+  padding-left : 220px;
+  background-color: #eee;
+}
+
+.GreetingContainer
+{
+  padding : 20px;
+  text-align : center;
+}
+
+.UserContainer 
+{ 
+  width : 500px; 
+  margin-left : auto;
+  margin-right : auto;  
+}
+
+.ReturningUsersContainer
+{
+  width : 450px;  
+  margin-left : auto;
+  margin-right : auto;
+}
+
+.ReturningUsersContentContainer
+{
+  width : 340px;
+  margin-left : auto;
+  margin-right : auto;
+  margin-top : 15px;
+  padding-bottom : 15px;
+}
+
+.TitleBar
+{
+  display : none;
+  /*
+  color : black;
+  border-top-left-radius : 5px;
+  border-top-right-radius : 5px;    
+  background-color : #D8D8D8;*/
+  font-weight : bold;
+  text-align : center;
+  padding : 3px;
+}
+
+.TitleBar p
+{
+}
+
+.EntryCaptionContainer
+{
+  clear : both;
+  float : left;
+  line-height : 30px;
+  text-align : right;
+  height : 30px;
+  width : 200px;
+  margin-right : 10px; 
+  font-weight: bold
+}
+
+.GeneralCaptionContainer { width : 260px; }
+.CarCaptionContainer { width : 225px; }
+
+.ReturningUserCaptionContainer { width : 170px; }
+
+.NavButtonContainer { position : relative; height : 50px;margin-left: auto;margin-right: auto;width: 750px;padding-top: 15px;}
+
+.LeftNavButtonContainer 
+{
+  position : absolute;
+  left : 0px;
+}
+
+.RightNavButtonContainer 
+{
+  position : absolute;
+  Right : 15px;
+}
+
+.AddUnitNavButtonContainer
+{
+  position : absolute;
+  Right : 100px;
+}
+
+.EntrySeparator
+{
+  clear : both;
+}
+
+.EntryContainer
+{
+  float : left;  
+  line-height : 30px;
+  height : 30px;
+  margin : 0px;
+  padding : 0px;
+  text-align : left;
+}
+
+.EmailEntry { width : 150px; }
+
+.ReturningEmailEntry { width : 150px; }
+
+.ReturningPasswordEntry { width : 150px; }
+
+.PasswordEntry { width : 150px; }
+
+.ReturningUserLinkContainer { text-align : center; }
+
+.PasswordForgetLinkContainer { margin-top : 15px;  }
+
+.UserContentContainer
+{
+  padding-top : 15px;
+}
+
+.WelcomeEntry { width : 150px; }
+
+.WelcomeZipCodeEntry { width : 75px; }
+
+.NewUserCaptionContainer { width : 200px; }
+
+.NewUserLinkContainer { text-align : center; }
+
+.ReturningUserLinkContainer { margin-top : 15px; }
+
+.SmallNumberEntry { width : 50px; }
+.LargeNumberEntry { width : 100px; }
+
+.Error { color : Red; }
+
+.ZipCodeError
+{
+  font-size : 1.2em;
+  font-weight : bold;
+}
+
+.WelcomeCaptionContainer { width : 250px; }
+
+.WelcomeErrorContainer { margin-top : 15px; }
+
+.WelcomeContinueButtonContainer { margin-top : 15px; }
+
+.NameEntry { width : 150px;}
+
+.SSNEntry { width : 100px; }
+
+.AddressEntry { width : 200px; }
+
+.ZipCodeEntry { width : 70px; }
+
+.PhoneEntry { width : 120px; }
+
+.PasswordEntry { width : 150px; }
+
+.PasswordConfirmEntry { width : 150px; }
+
+.EntryRequiredContainer
+{
+  margin-top : -8px;
+  margin-bottom : -5px;
+  width : 200px;
+  text-align : right;
+  clear : both;
+  float : left;
+  color : Gray;
+  font-size : 0.8em;
+  font-style : italic;
+}
+
+.EntryOptionalContainer
+{
+  margin-top : -8px;
+  margin-bottom : -5px;
+  width : 200px;
+  text-align : right;
+  clear : both;
+  float : left;
+  color : Gray;
+  font-size : 0.8em;
+  font-style : italic;
+}
+
+
+.GeneralEntryRequiredContainer { width : 260px; }
+.DriverEntryRequiredContainer { width : 275px; }
+.CarEntryRequiredContainer { width : 225px; }
+
+.SectionDivider
+{
+  height: 1px;
+  text-align: left;
+  border-top:1px silver solid;
+  height : 20px;
+  margin-top : 20px;
+  position : relative;
+  margin-right : auto;
+  margin-left : auto;
+  width : 750px;
+}
+
+.SectionHelpIcon
+{
+  width : 24px;
+  height : 24px;
+  background-image : url(images/infosmall.png);  
+  float : left;
+  margin-top : -13px;
+  padding-right : 5px;
+  background-repeat : no-repeat;
+  cursor : pointer;
+}
+
+.FirstSectionDivider {margin-top: 40px;}
+
+.SectionLabel
+{
+  /* position:relative; */
+  padding-right:10px;
+  top:-10px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.PasswordSectionLabel { float:left; }
+
+.SectionDividerExtraContainer1
+{
+  display : inline;
+}
+
+.SectionDividerExtraContainer2
+{
+  height : 1px;
+  background-color : Gray;
+  margin-top : -8px;
+  margin-right : 10px;  
+  display : inline;
+}
+
+.SectionDividerCaption 
+{
+  float : left;
+}
+
+.EntrySection
+{
+}
+
+.GeneralNameSection
+{
+  min-width: 600px; 
+}
+
+.InfoSection
+{
+  float : left;
+  margin-left : 10px;
+  margin-right : 10px;
+  margin-bottom : 10px;
+  font-weight : bold;
+  width : 155px;
+  display:none;
+}
+
+.EntryEndingDivider { clear : both; }
+
+.DateEntryContainer
+{
+  float : left;
+}
+
+.DateEntry { width : 100px; }
+
+.DateImageContainer
+{
+  width : 16px;
+  height : 15px;
+  cursor : pointer;
+  float : left;
+  margin-left : -20px;
+  margin-top : 7px;
+}
+
+.DateExtraContainer { clear : both; }
+
+.FCRACaptionContainer 
+{
+  text-align : justify;
+  margin-left : 20px;
+  margin-right : 30px;
+  line-height : normal;
+}
+
+.FRCASeparator { clear : both;}
+
+.FCRAEntryCaptionContainer 
+{
+}
+
+.FCRARequiredContainer {  }
+
+.FCRALink {white-space : nowrap;
+color: #059194; }
+
+.AntiSpamContainer { margin-left : 210px; }
+
+.NormalLinkContainer
+{
+  display : none;
+}
+
+.SmallButton
+{text-align: center;text-transform: uppercase;font-family: "museo-slab",serif;font-style: normal;display: block;margin: 20px auto;font-weight: 900;width: 175px;background-color: #033649;border-radius: 50px;height: 30px;color: #fff;padding: 15px 30px 30px;margin-bottom: 20px;font-size: 20px;}
+
+.SmallButton:Hover
+{
+  cursor : pointer;
+  background-color : #056285;
+  background-image : none;
+}
+
+.LargeButton
+{  
+  background-image : url(images/largebuttongradientlight.png);
+  background-repeat : repeat-x;
+  border :  1px solid gray;
+  box-shadow : 0px 0px 6px #808080;
+  border-radius : 5px;
+  cursor : pointer;
+  width : 100px;
+  height : 40px;
+  background-color : #B1B2C9;
+  font-weight : normal;
+}
+
+.LargeButton:hover
+{  
+  background-image : none;
+  border :  1px solid gray;
+  box-shadow : 0px 0px 6px #808080;
+  border-radius : 5px;
+  cursor : pointer;
+  width : 100px;
+  height : 40px;
+  background-color : white;
+  font-weight : normal;
+}
+
+span#ctl00_CPH_AddressLabel {
+    font-weight: bold;
+}
+
+span#ctl00_CPH_CountyCityLabel {
+    font-weight: bold;
+}
+
+span#ctl00_CPH_StateZipLabel {
+    font-weight: bold;
+}
+
+.AlertContainer 
+{ 
+  visibility : hidden; 
+  background-image : url(images/warningsmall.png);
+  width : 20px;
+  height : 20px;
+  float : left;
+  margin-left : 2px;
+  margin-top : 5px;
+  cursor : pointer;
+}
+
+.AlertText { display : none; }
+
+.InfoIconContainer 
+{ 
+  color : transparent;  
+  display : none;
+  background-image : url(images/infosmall.png);
+  width : 24px;
+  height : 24px;
+  float : left;
+  margin-left : 2px;
+  margin-top : 3px;
+  cursor : pointer;
+}
+
+.AlertVisible { visibility : visible; }
+
+.AlertRequired { color : Red; }
+
+.AlertControl { background-color : #FFE0E0; }
+
+.HelpContainer
+{
+  left : 0px;
+  top : 0px;
+  padding : 10px;
+  width : 250px;
+  background-color : #FFFFC0;
+  position : absolute;
+  visibility : hidden;
+  box-shadow : 0px 0px 10px #808080;
+  border-radius : 10px;  
+  border : 1px silver solid;
+}
+
+.InfoContainer
+{
+  left : 0px;
+  top : 0px;
+  visibility:hidden;
+  padding : 10px;
+  min-width : 250px;
+  max-width : 350px;
+  background-color : #EFEFFF;
+  position : absolute;
+  box-shadow : 0px 0px 10px #808080;
+  border-radius : 10px;  
+  border : 1px silver solid;
+}
+
+.InfoVisible, .HelpVisible { visibility : visible; }
+
+.UnitGridCell 
+{
+  padding-right : 20px;
+  padding-left : 3px;
+  padding-bottom : 3px;
+  padding-top : 3px;
+  white-space : nowrap;
+}
+
+.UnitGrid { margin : 0px; padding : 0px; width : 100%}
+
+.UnitGridContainer
+{
+  box-shadow : 0px 0px 6px #808080;
+  border : 1px silver solid;
+  padding : 15px;
+  margin-bottom : 30px;
+  margin-right : auto;
+  margin-left: auto;
+  width: 750px; 
+}
+
+.UnitGridLinkDisabled { display : none; }
+
+.UnitGridDisabledLabel { display : none; color : gray; }
+
+.UnitGridDisabledLabelVisible { display : inline; color : gray; }
+
+.UnitNumberLabel { font-weight : bold; }
+
+.UnitNameLabel { font-weight : bold; }
+
+.LastUnitCell { width: 100px;float: right; }
+
+.DialogBackground
+{
+  position : fixed;
+  background-color : silver;
+  left : 0px;
+  top : 0px;
+  width : 100%;
+  height : 100%;
+  z-index : 9999998;
+  opacity : 0.3;
+  filter : alpha(opacity = 30);
+}
+
+.DialogContainer
+{
+  background-color : white;
+  text-align : center;
+  border-radius : 5px;
+  box-shadow : 0px 0px 6px #808080;  
+}
+
+
+.DialogContentContainer
+{
+  padding : 20px;
+}
+
+.DialogButtonContainer
+{
+  padding : 10px;
+}
+
+.DialogHeaderContainer
+{
+  background-color : #E0E0E0;
+  padding : 5px;
+  border-top-left-radius : 5px;
+  border-top-right-radius : 5px;
+  font-weight : bold;
+}
+
+.AddUnitContainer { margin-top : 10px; margin-left : 4px;}
+
+.WelcomeEntryRequiredContainer { width : 250px; }
+
+.UserModeLinkContainer 
+{ 
+  padding-top : 15px; 
+  padding-bottom : 15px; 
+  text-align : center;
+}
+
+.WelcomeContinueButtonContainer { text-align : center; margin-bottom : 30px; }
+
+.Selection {
+    background-color: #059194;
+    color : #fff;
+    font-weight : normal;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.DriverCaptionContainer, .DriverEntryRequiredContainer { width : 260px; }
+
+.Bold { font-weight  : bold; }
+
+.WelcomeCaptionContainer, .WelcomeEntryRequiredContainer { width : 180px; }
+
+.StandardListContainer
+{
+  height : 250px;
+  overflow-y : scroll;
+  overflow-x : hidden;
+  border : 1px silver solid;
+  padding : 5px;
+}
+
+.ViolGrid { margin : 0px; padding : 0px; padding-right : 10px; width : 100%;}
+
+.ViolDateEntryContainer { margin-left : 2px; float:left;line-height : 30px; height : 30px;}
+.ViolDescEntryContainer { float:left;line-height : 30px; height : 30px;}
+.ViolDescSubContainer { float:left; }
+.ViolDateLabel { margin-left : 0px; margin-right : 0px; }
+
+.ViolGridCell 
+{
+  padding-right : 5px;
+  white-space : nowrap;
+  padding-top : 5px;
+  text-align : left;
+}
+
+.LastViolGridCell
+{
+}
+
+.ViolEntryContainer 
+{
+  margin-left : 0px;
+  margin-right : -90px;
+}
+
+.ViolDeleteCell { vertical-align : top; padding-top : 10px; text-align : left;}
+
+.ViolGridRow { background-color : white; border-bottom : 1px silver solid; border-top : 1px silver solid;}
+
+.ViolNumberCell { font-weight : bold; vertical-align : top; padding-top : 10px; }
+
+.ViolAttrEntry { width : 75px; }
+
+.ViolContainer 
+{
+  box-shadow : 0px 0px 6px #808080;
+  border : 1px silver solid;
+  margin-right : 15px;  
+  margin-top : 5px;
+}
+
+.ViolEntrySeparator {}
+
+.AddViolLinkContainer { margin-top : 5px; }
+.ViolAttrLabel {white-space:nowrap;}
+.ViolAttrContainer { padding-bottom : 5px; }
+
+.ViolContentContainer { padding-left : 5px; padding-right : 5px; }
+
+.AddUnitNavButton, .AddUnitNavButton:hover
+{
+  width : 135px;
+}
+
+.AddUnitNavButtonDisabled
+{
+  color : Silver;
+}
+
+.NoInfoContainer
+{
+  text-align : center;
+  padding-top : 100px;
+  padding-bottom : 100px;
+}
+
+.CarVINEntry { width : 175px; }
+
+.CarDetailCell
+{
+  text-align : center;
+  white-space : nowrap;
+  padding-top : 2px;
+  padding-bottom : 2px;
+  padding-left : 2px;
+  padding-right : 2px;
+}
+                
+.CarDetailHeaderCell
+{
+  font-weight : bold;
+  white-space : nowrap;
+  text-align : center;
+  padding-bottom : 3px;
+  padding-left : 2px;
+  padding-right : 2px;
+}
+
+.CarDetailContainer
+{
+  width : 700px;
+}
+
+.CarDetailGrid
+{
+  width : 650px;
+}
+
+.CarDetailListContainer 
+{
+  padding : 5px;
+  border : none;
+}
+
+.CarDetailContentContainer { padding : 5px; }
+
+.PackageCheckContainer { height : 30px; line-height : 30px; }
+
+.PackageButtonLabel { font-weight : bold; }
+
+.PackageDescriptionContainer { font-size : 0.85em; padding-left : 18px; }
+
+.PackageContainer { width : 300px; margin-bottom : 10px;float : left; margin-right : 20px; margin-left: 20%}
+
+.LimitPackageEndingDivider { clear : both; border-bottom : 1px silver solid;width: 70%;margin-left: auto;margin-right: auto;}
+
+.PackageLimitsContainer { padding-top : 30px; float : left; }
+
+.LimitContainer { line-height : normal; }
+
+.MainPackageContainer { margin-bottom : 30px; }
+
+
+.QuoteCoveragesContentContainer { text-align : left; }
+
+.QuoteCoveragesContentContainer p { white-space : nowrap; }
+
+.QuoteLimitsCell { padding-left : 15px; }
+
+.QuoteContactContainer { margin-bottom : 10px; }
+.QuoteContactContentContainer
+{
+  margin-left : 10px;
+  padding : 10px;
+}
+
+.QuoteExtraContainer1 {clear : both;}
+
+.MainQuoteContainer {}
+
+.QuoteUnitsContainer
+{
+}
+
+.QuoteDriverContainer { margin-left : 15px; }
+.QuoteCarContainer { margin-left : 15px; margin-top : 10px; }
+.QuoteUnitsExtraContainer1 { clear : both;  }
+.QuoteDriverGrid { width : 100%; }
+.QuoteCarGrid { width : 100%; }
+
+.QuoteDetailLabel { } 
+
+.QuoteDownPaymentLabel { font-weight : bold; font-size : 1.2em; }
+.QuoteTotalContainer { float : right; margin-top : -20px; }
+.QuoteMonthlyPayContainer { float:right; margin-top : -20px;}
+.QuoteCompanyImageCaption { display : none; }
+.QuoteContainer { }
+.QuotePremiumCaption { height : 20px; line-height : 20px; display:inline; font-weight : bold; }
+.QuotePremiumContainer { text-align : center; }
+.QuotePremiumContentContainer { text-align : right; }
+.MainQuotePremiumContainer { padding-left : 0px; padding-right : 20px; }
+.QuoteCompanyImageContainer { float : left; padding : 10px; font-weight : bold; clear : both; } 
+.QuoteMainCaptionBar { height : 20px; line-height : 20px; }
+.QuotePremiumSubContainer
+{
+  border-left : 1px silver solid;
+  padding : 10px;
+  padding-top : 30px;
+  padding-bottom : 30px;
+}
+.QuoteCaptionContainer
+{
+  text-align : left;
+  padding : 3px;
+  background-color : white;
+}
+.QuotePaymentsLabel, .QuoteTotalPremiumLabel { font-size : 1.8em; font-weight : bold;}
+
+.CarCoverageGridCaptionHeaderCell
+{
+  text-align : left;
+  white-space : nowrap;
+}
+
+.CarCoverageGridCaptionCell
+{
+  text-align : center;
+  white-space : nowrap;
+}
+
+.CarCoverageGridCell { white-space : nowrap; }
+
+.QuoteLimitsCaptionCell { white-space : nowrap; text-align : left; padding-right : 15px;}
+.QuoteLimitsCell { white-space : nowrap; padding-left : 0px;}
+.QuoteTable { margin-left : 15px; }
+.QuotePremiumCell { }
+.QuoteCoverageCell { }
+.QuoteLimitsTable { }
+.QuotePremiumCell { vertical-align : middle; }
+.QuoteCoverageCell { vertical-align : top; }
+.QuoteDisplayContainer { margin-right : 15px;  }
+
+.QuoteUnitsSeparator { clear : both; }
+.QuoteUnitHeaderCell { font-weight : bold; padding-right : 10px; text-align : left; }
+.QuoteUnitCell { padding-right : 10px; text-align : left; }
+.QuoteNonOwnerContainer { }
+.QuoteDisclaimerContainer { margin : 0px 20px 20px 20px; font-style : italic; }
+.ComparisonDisclaimerContainer { font-style : italic;width: 750px;}
+
+.RateErrorMainLabel {font-weight : bold;}
+.RateErrorMessageContainer {text-align : center;}
+.ResponseBox, .RequestBox { width : 45%; height : 600px; } 
+.DriverAssignCaptionContainer { width : 200px; }
+.DriverAssignEntryRequiredContainer { width : 200px; }
+
+.ExtraDeleteLinkContainer { display : none; }
+
+.MainBackground
+{
+  background-color: #eee;
+}
+
+.Spokesperson
+{
+  margin-left : -150px;
+  margin-top : -95px;
+  z-index : -1;
+}
+
+.QuoteReturnLinkContainer
+{
+  margin-top : 20px;
+}
+
+.CarDetailGridAlternatingRow
+{
+  background-color : #E5E5E5;
+}
+
+.DebugContainer 
+{
+  text-align : right;
+}
+
+
+.Hidden { display : none; }
+
+.RateErrorContainer, .RateProgressContainer
+{
+  background-color : white;
+  border : 1px silver solid;
+  box-shadow : 0px 0px 6px #808080;
+  border-radius : 5px;  
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 10px 30px 10px; 
+}
+
+.RateErrorMessageContainer, .RateMessageContainer { text-align : center; margin-top : 20px; margin-bottom : 20px; position:relative}
+.RateErorMessageCaptionContainer, .RateMessageCaptionContainer {
+  text-align : center; 
+  font-weight : bold; 
+  position: absolute;
+  left: auto;
+  right: auto;
+  top: auto;
+  bottom: auto; 
+  margin-top: -16px;
+  width: 750px;
+}
+.CaptionBar { background-color : #bdd5e6; }
+.ButtonsContainer { margin-left: -5px; }
+.CellContainer {
+}
+
+.AddInfoHeaderLabel, .ApplicationHeaderLabel { font-weight : bold; font-size : 1.4em; }
+.AddInfoHeader, .ApplicationHeader { margin-bottom : 25px; margin-top : 15px; }
+.AddInfoUnitCaptionContainer { font-weight : bold; margin-top : 10px; margin-bottom : 10px; }
+.AddInfoUnitSeparator { margin-bottom : 20px; }
+.AddInfoMakeModelLabel { font-weight : bold; }
+.AddInfoCaptionContainer { width : 225px; }
+.AddInfoEntryRequiredContainer { width : 225px; }
+.AddInfoExclusionNotice { margin-top : 10px; text-align : left; }
+.AddInfoExcludeReasons { margin-left : 20px; margin-top : 10px; }
+.AddInfoDisclaimerContainer { margin-top : 25px; }
+.AddInfoHelpListItem { margin-left : 15px; }
+
+.ApplicationCreditCardContainer { display : none; }
+.ApplicationBankDraftContainer { display : none; }
+.ApplicationCardSecurityCodeEntry {width : 50px; }
+.ApplicationTotalPremiumContainer { padding-left : 15px; margin-top : 25px; font-size : 1.2em;}
+.ApplicationDownPaymentContainer { padding-left : 15px; font-weight : bold; margin-bottom : 10px; font-size : 1.2em;}
+.ApplicationCaptionHeaderCell { font-weight : bold; padding-right : 10px; text-align : left; }
+.ApplicationCaptionCell { padding-right : 20px; text-align : left; }
+.ApplicationUnitHeaderCell { font-weight : bold; padding-right : 10px; text-align : left; }
+.ApplicationUnitCell { padding-right : 10px; text-align : left; }
+.ApplicationPremiumHeaderCell { font-weight : bold; padding-right : 10px; text-align : right; }
+.ApplicationPremiumCell { padding-right : 10px; text-align : right; }
+.ApplicationLastCell { padding-right : 0px; }
+.ApplicationPayPlanContainer { margin-top : 15px; padding-left : 15px; }
+.ApplicationPayPlanGrid {  }
+.ApplicationSelectionCell { padding-right : 5px; }
+.ApplicationErrors { color : Red; text-align : left; list-style-type: disc;  list-style-position:inside; }
+.ApplicationPayPlanAlternateRow { background-color : #F0F0F0; }
+.ApplicationUnitSeparator { margin-bottom : 20px; }
+.ApplicationEftCaptionPanel { padding-left : 15px; font-weight : bold; margin-bottom : 10px; padding-top : 10px; }
+
+.ApplicationListContainer
+{
+  width : 350px;
+  height : 150px;
+  overflow-y : scroll;
+  overflow-x : hidden;
+  border : 1px silver solid;
+  padding : 5px;
+}
+
+.QuoteUnitsMainContainer { margin-bottom : 15px; }
+.BuyNowQuote { margin-top : 15px; }
+.ApplicationDoneContainer 
+{
+  background-color : white;
+  border : 1px silver solid;
+  box-shadow : 0px 0px 6px #808080;
+  border-radius : 5px;  
+  margin : 30px 30px 30px 30px;
+  padding : 50px;
+}
+
+.ApplicationDoneMessageContainer { text-align : center; font-weight : bold;}
+
+.BindingLoadPanel 
+{   
+  background-color : white;
+  border : 1px silver solid;
+  box-shadow : 0px 0px 6px #808080;
+  border-radius : 5px;  
+  margin : 30px 30px 30px 15px;
+  padding : 50px;
+  text-align : center;
+ }
+
+.BindingLoadImage {  } 
+.BindingLoadLabel { }
+
+.BindingErrorLabel { color : Red; }
+.BindingErrorPanel 
+{
+  background-color : white;
+  border : 1px silver solid;
+  box-shadow : 0px 0px 6px #808080;
+  border-radius : 5px;  
+  margin : 30px 30px 30px 15px;
+  padding : 50px;
+  text-align : center;
+  display : none;
+}
+
+.BindingReturnButton { width : 200px; }
+.BindingReturnButton:hover { width : 200px; }
+.BindingReturnButton:active { width : 200px; }
+
+.VisibleInfoIcon { display : block; float: right; position:relative; top : -3px; }
+
+.CheckBox { position : relative; top : 2px; margin-right : 4px;  }
+
+.CountyEntryContainer { float : left; }
+.CityEntryContainer { float : left;margin-left : 3px; }
+.TerritorySeparator { clear : both; }
+
+.InsuredStateContainer { float : left; }
+.InsuredZipContainer { float : left;  margin-left : 3px; }
+.InsuredCityStateSeparator { clear : both; }
+
+.LicenseStatusContainer { float : left;margin-right: 3px;}
+.StateLicensedContainer { float : left;}
+.LicenseEntrySeparator { clear : both; }
+
+.PhoneEntryContainer { float : left; }
+.PhoneTypeContainer { float : left;  margin-left : 3px; }
+.PhoneEntrySeparator { clear : both; }
+.LanguageLabelContainer { text-align : right; right : 0px; }
+
+.CarCaptionLabel { font-weight : bold; }
+.QuoteCarCaptionContainer { float : left; width : 10%; }
+.QuoteCarCompDedCaptionContainer, .QuoteCarCollDedCaptionContainer { width : 25%; }
+.QuoteCarCaptionSeparator { clear : both; }
+
+.QuoteCarDataContainer { float: left; width : 10% }
+.QuoteCarCompDedContainer, .QuoteCarCollDedContainer { width : 25%; }
+.QuoteCarSeparator { clear : both; }
+
+.BreakdownCarLabel { float: left;padding-right: 20px;width: 80px; }
+.BreakdownHeaderCaptions { margin-top: 5px; }
+.BreakdownHeaderCaption { float: left;padding-right: 10px; text-transform: uppercase;width: 160px;font-weight: bold;}
+.BreakdownHeaderLabel { float: left;padding-right: 10px;width: 160px;line-height: 2;}
+.BreakdownCarCaptions { margin-top: 5px;}
+.BreakdownCarCaption { float: left;padding-right: 20px; text-transform: uppercase;width: 80px;font-weight: bold;}
+.BreakdownCarPDCaptionContainer {width: 200px;}
+.BreakdownCarPDLabel {width: 200px;}
+.BreakdownCarPDLabelContainer {width: 200px;}
+.BreakdownCarYearLabel {width: 60px}
+.BreakdownLimits{ position: relative;margin-top: 10px; }
+.BreakdownLimitsCaptions { text-transform: uppercase;float: left;padding-right: 60px;line-height: 2;position: absolute;width: 300px;left: 0;font-weight: bold;} 
+.BreakdownLimitsCaptions span { display:block; }
+.BreakdownLimitsLabels { float: left;line-height: 2;position: absolute;width: 300px;left: 300px; } 
+.BreakdownLimitsLabels span { display:block; }
+.BreakdownHeaderTotalLabel { padding-right: 10px;width: 75px;font-size: 120%;line-height: 1;color: dodgerblue;} 
+.BreakdownHeaderTermLabel { padding-left: 10px; } 
+.BreakdownCarYearLabelContainer{ width: 45px; }
+.BreakdownCarYearCaptionContainer { width: 45px; }
+.BreakdownCarMakeCaptionContainer{ width: 116px;padding-right: 5px;}
+.BreakdownCarMakeLabelContainer{ width: 116px;padding-right: 5px;}
+.BreakdownCarModelCaptionContainer{ width: 116px;padding-right: 5px;}
+.BreakdownCarModelLabelContainer{ width: 116px;padding-right: 5px;}
+.BreakdownCarPDLabelContainer{}
+.BreakdownCarTowingLabelContainer{}
+.BreakdownCarRentalLabelContainer{ padding-right: 55px; }
+.BreakdownCarRentalCaptionContainer{ padding-right: 55px; }
+
+.ViewQuoteButtonContainer {   position:absolute; bottom:0; right:0;  } 
+.CompanyNameImageContainer { padding-left: 25px; } 
+.PreviewRow    
+{
+  border: 1px solid #E0E0E0;
+  vertical-align: bottom;
+  border-bottom: 10px solid #E0E0E0;
+  background-color: #FAFAFA; 
+  width: 750px;
+  height: 120px; 
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s; 
+  position:relative;
+ } 
+
+.ComparisonNumberContainer {
+  position: absolute;
+  float: left;
+  top: 50px;  
+}
+
+.ComparisonCaptionContainer {
+  position: absolute;
+  float: left;
+  bottom: 0px;
+  width: 155px; 
+}
+
+.FlatButton {
+  font-size : 1.1em;
+  padding : 5px 5px;
+  text-decoration : none;
+  cursor : pointer;
+  width: 95px;
+  height: 18px;
+  color: white;
+  height: 18px; 
+  margin: 0;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  right: 2px;
+  bottom: 15px;
+  border-radius: 5%; 
+}
+
+.ContactMeButton {
+  background-color: #207ec8;
+  color: white;
+}
+.BreakdownContainer {
+  position: absolute;
+  width: 800px;
+  display: none;
+  color: #696969;
+  padding-left: 25px;
+  top: 110px;
+}
+
+.ViewQuoteButton {
+  width:90px; 
+  background-color: #FAFAFA;
+  border-top:none; 
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid #e0e0e0;
+  height:0; 
+  line-height: 26px; 
+  text-decoration:none;
+  display:block;
+  color: #808080;    
+  padding-left:10px;
+  cursor: pointer;
+}
+.ViewQuoteButtonClose { display: none; color:dodgerblue }
+.ComparisonBuyNowButton, .ComparisonCallToBuyButton
+{
+  background-color: #FF5722;
+  bottom: 50px; 
+}
+
+.ComparisonTextField { text-align : left; white-space :normal; padding : 5px; border-right : 1px silver solid;}
+.ComparisonTextHeader { text-align : left; white-space :nowrap; padding : 5px; }
+.ComparisonNumberField { padding-right : 5px; padding-left : 5px; text-align : center;padding-top: 50px;vertical-align: top; }
+.ComparisonNumberHeader { text-align : right; text-align : center; padding : 3px; }
+.ComparisonNumber { font-size : 1.8em; }
+.ComparisonNumberCaption { color:#96a0ac }
+.ComparisonImageField { text-align : center;padding-bottom: 40px;vertical-align: top; }
+.ComparisonCompanyImage { position: absolute;top: 10px;max-width: 150px;max-height: 70px; }
+.ComparisonGridContainer
+{
+  padding-left : 0px;
+  padding-right : 10px;
+  padding-bottom : 20px;
+  width: 750px;
+  margin: 0 auto; 
+}
+.CompanyComparisonRowExpanded
+{
+  height: 420px; 
+}
+
+.QuoteDetailCaptionLabel
+{
+  font-size : 1.3em;
+  font-weight : bold;
+  margin-bottom : 5px;
+}
+.ComparisonBreakdownProgressPanel { float:left;padding-top : 5px; }
+.ComparisonLastCell { padding-left : 16px; padding-bottom : 15px; padding-top : 100px;position: relative;width: 160px;}
+.ComparisonNameLabel { color: #96a0ac; }
+
+.RateProgressImageContainer 
+{ 
+  width : 220px; 
+  height : 19px; 
+  margin-left : auto;
+  margin-right : auto;
+  background-image : url(Images/progress.gif);
+  position: relative;
+  top: 10px; 
+}
+
+.ComparisonSortContainer { text-align : right; float: right; line-height : 30px; height : 30px;padding-bottom: 10px; }
+.ComparisonSortCaptionContainer { text-align : right; float: right; line-height : 30px; height : 30px; margin-right : 5px; }
+
+.ComparisonHeaderContainer
+{
+  font-size : 1.3em;
+  font-weight : bold;
+  margin-bottom : 5px;
+  float:left;
+}
+
+.ComparisonSortSeparator { clear : both; }
+.ComparisonContainer 
+{
+  position: relative;
+  float:left; 
+  padding-top: 80px; 
+  width:130px;
+  height: 18px; 
+}
+.ComparisonImageContainer{}
+.DownPaymentContainer { padding-left: 65px; }
+.MobileMonthlyPremium { display: none;}
+.ComparisonSortPanel{ width: 750px;}
+.BreakdownHeaderTermLabelMobile{ display: none;}
+.FinalTextLabel{ position: absolute;left: auto;right: auto;padding-bottom: 20px;text-align: center;width: 750px;padding-top: 113px; }
+.FinalTextLabelContainer{ position: relative;height: 250px;}
+.MobileBreak { display: none; }
+.MobileRequired { display: none; }
+.CarInfoSection { width: 750px;margin-left: auto;margin-right: auto; }
+.CarCoverageSection { width: 750px;margin-left: auto;margin-right: auto; }
+.EntrySection {width: 750px;margin-left: auto;margin-right: auto;}
+.BreakdownCarDetailsContainer { width: 50px;float: left;height: 40px;padding-right: 60px;}
+.BreakdownCarYearLabelsContainer { padding-right: 10px;}
+.BreakdownCarMakeLabelsContainer {}
+.BreakdownCarModelLabelsContainer {}
+.BreakdownCarCompAndCollLabelsContainer { padding-right: 110px;width: 100px; }
+.BreakdownCarTowingLabelsContainer {}
+.BreakdownCarRentalLablesContainer {}
+.ItcDateEntry { width: 40px;text-align: center;}
+.EffDateAlertContainer 
+{ 
+  display : none; 
+  background-image : url(images/warningsmall.png);
+  width : 20px;
+  height : 20px;
+  float : left;
+  margin-left : 2px;
+  margin-top : 5px;
+  cursor : pointer;
+}
+.DateCaptionContainer {width: 260px}
+.DateRequiredContainer {width: 260px}
+.HeaderLabel { font-weight: bold;font-size: 14pt;margin-left: -14px; }
+.PageHeader { height: 50px;margin-top: 20px;margin-left: auto;margin-right: auto;position: relative;width: 750px;text-align: left; }
+.SubHeaderLabel { font-size: 14px;margin-left: -14px;}
+.GridButtonContainer { padding-bottom: 4px; }
+.DriverIncludedlabelContainer { text-align: right;margin-bottom:-15px;margin-top: -5px;margin-right: 2px;padding-bottom: 10px; }
+.EditDriverButtonContainer { padding-bottom: 35px;padding-top: 20px;}
+.DeleteDriverButtonContainer { width: 100px;padding-bottom: 45px; }
+.AddDriverButtonContainer { width: 100px;padding-top: 20px;}
+.DeleteButton { width: 100px;float: right; }
+.EditButton {float: right;}
+.AddDriverButton { width: 130px;float: right; }
+.AddDriverButton:hover { width: 130px;}
+.DeleteButton:hover { width: 100px;}
+.driverRow { width: 750px;border-bottom: 1px solid black;height: 90px;}
+.driverSelectedRow { height: 80px; }
+.DriverNameLabel{font-weight: bold;font-size: 11pt;font-family: 'Open Sans', sans-serif;}
+.DriverLabel{ padding-top: 5px;}
+.DriverFirstCell { padding-left: 25px;}
+
+.CarIncludedlabelContainer { text-align: right;margin-bottom:-15px;margin-top: -5px;}
+.EditCarButtonContainer { padding-bottom: 35px;padding-top: 20px;}
+.DeleteCarButtonContainer { width: 100px;padding-bottom: 45px; }
+.AddCarButtonContainer { width: 100px;padding-top: 20px;}
+.AddCarButton { width: 140px;float: right; }
+.AddCarButton:hover { width: 140px;}
+.carRow { width: 750px;border-bottom: 1px solid black;height: 90px;}
+.carSelectedRow { height: 80px; }
+.CarDetailsLabel{ font-size: 11pt;padding-top: 5px;}
+.CarFirstCell { padding-left: 25px;}
+.AddUddDriverButtonContainer { padding-left: 25px;padding-top: 30px; }
+.AddUddCarButtonContainer { padding-left: 10px;padding-top: 30px; }
+.AddUddCarButton { width: 90px; }
+.AddUddCarButton:hover { width: 90px; }
+
+span#ctl00_CPH_AddressLabel {
+    font-weight: bold;
+}
+
+span#ctl00_CPH_CountyCityLabel {
+    font-weight: bold;
+}
+
+span#ctl00_CPH_StateZipLabel {
+    font-weight: bold;
+}
+
+span#ctl00_CPH_EmailAddressLabel {
+    font-weight: bold;
+}
+
+span#ctl00_StepRepeater_ctl08_StepSubLabel {
+    color: #033649;
+}
+
+span#ctl00_StepRepeater_ctl07_StepSubLabel {
+    color: #033649;
+}
+
+span#ctl00_StepRepeater_ctl02_StepSubLabel {
+    color: #033649;
+}
+
+a#ctl00_TermsLink {
+    text-decoration: none;
+    color: #2b9a9c;
+}
+
+a#ctl00_ReturnLink {
+    color: #2b9a9c;
+    text-decoration: none;
+}
+
+a#ctl00_AgencyContactEmailLink {
+    text-decoration: none;
+    color: #059194;
+}
+
+div#ctl00_CPH_CarUsagePanel {
+    padding: 20px 10px;
+}
+
+div#ctl00_CPH_CarYearPanel {*  {
+    margin: 0px;
+    padding : 0px; }
+    body  {   font-family: 'Open Sans', sans-serif;
+    color: #033649;
+    font-size: 18px;
+    font-size : 13px;
+    margin : 0px;
+    padding : 0px;
+    background-color : #231f20;
+    min-width : 750px;
+    max-width : 1280px;
+    margin-left : auto;
+    margin-right : auto; }
+    html { height : 100%; }
+    h1 {   font-weight : bold;
+    font-size : 1.4em; }
+    a:visited {   text-decoration: none;
+    color: #059194; }
+    body * {     box-shadow: none !important;
+    background-color: #eee;
+    font-size: 18px; }
+    span#ctl00_CPH_EmailAddressLabel {     font-weight: bold; }
+    h2 {   font-weight : bold;
+    font-size : 1.0em; }
+    input::-moz-focus-inner /*Remove button padding in FF*/ {    border: 0;
+    padding: 0; }  /*Remove microsoft "clear" button on date entries*/ .DateEntry::
+    -ms-clear {display: none;
+    width:0;
+    height:0;}
+    input[type="text"], input[type="password"] {   border-radius : 0px;
+    padding : 3px;
+    box-shadow : inset 0px 0px 10px #E0E0E0;
+    border: 1px #059194 solid;
+    margin : 0px;
+    font-family : Helvetica, Arial, Sans-Serif;
+    font-size : 1.0em; }
+    option {padding-right : 10px;}
+    select {   font-family: 'Open Sans', sans-serif;
+    border-radius: 0px;
+    padding-left : 4px;
+    padding-right : 4px;
+    padding-top : 2px;
+    padding-bottom : 2px;
+    border: 1px #059194 solid;
+    box-shadow : inset 0px 0px 10px #E0E0E0;
+    font-size : 1.0em; }
+    div.UpdateProgressContainer {   position : fixed;
+    left : 50%;
+    top : 50%;
+    width : 300px;
+    height : 90px;
+    margin-left : -150px;
+    margin-top : -45px;
+    padding-top : 27px;
+    background-color : white;
+    border : none;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    text-align : center;
+    font-weight : bold;
+    color : black;
+    filter : alpha(opacity = 100);
+    z-index : 9999999;
+    border : 1px silver solid; }
+    div.UpdateProgressBackground {   position : fixed;
+    background-color : white;
+    left : 0px;
+    top : 0px;
+    width : 100%;
+    height : 100%;
+    z-index : 9999998;
+    opacity : 0.0;
+    filter : alpha(opacity = 0); }
+    div.ProgressExtraContainer {   width : 28px;
+    height : 28px;
+    margin-left : auto;
+    margin-right : auto;
+    background-image : url(images/spinner.gif); }  .MainContainer {
+    margin-left : auto;
+    margin-right : auto; }  .AgencyContactHeaderContainer {
+    display : none; }  .AgencyNameLabel {
+    font-weight : bold;
+    color: #033649;
+    font-family: 'Open Sans', sans-serif; }  .MainExtraContainer1 {
+    clear : both; }  .HeaderContainer {
+    position : relative; }  .AgencyInfoContainer {
+    display : none; }  .AgencyInfo {
+    margin : 0px;
+    text-decoration: none; }  .HomeLink {
+    text-decoration : none;
+    color: #059194; }  .HomeLink:Visited {
+    text-decoration : none;
+    color: #059194; }  .HomeLink:Hover {
+    text-decoration : none;
+    color: #059194; }  .PageContentExtraContainer1 {
+    clear : both;   }  .StepNavContainer { }  .StepListContainer {
+    margin-top : 5px;
+    padding-bottom : 15px;
+    position : relative;
+    height : 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;  }  .AgencyContactContainer {
+    position : absolute;
+    width : 200px;
+    top : 0px;
+    left : 0px;
+    padding : 0px;
+    margin-top : 15px;
+    margin-left : 10px;
+    margin-right : 10px; }  .AgencyContactInfoHeader {
+    font-weight : bold; }  .PageContentContainer {
+    border-bottom-right-radius : 15px;
+    border-bottom-left-radius : 15px;   }  .StepList {
+    z-index : 10;
+    text-align: justify;
+    display: inline-block;
+    min-width: 640px;
+    max-width: 775px;
+    padding-top: 10px;  }  .StepListHeaderContainer {
+    text-align : left;
+    background-color : Navy;
+    color : White; }  .StepNavHeaderContainer {
+    display : none; }  .AgencyContactInfoContainer {
+    margin : 10px;
+    padding-bottom : 10px;
+    z-index : 9999;
+    position:relative; }  .StepListItem {
+    display: inline-block;
+    vertical-align: top;
+    height: 16px;
+    margin-top: 5px;
+    z-index: 1;
+    width: 40px;  }  .StepExtraContainer1 {
+    width: 100% !important;
+    display: inline-block;
+    line-height: 0;
+    font-size: 0;  }  .StepLabel {
+    font-weight : bold;
+    color: #fff; }  .StepLine {
+    background-color : black;
+    margin-left: 2%;
+    height : 1px;
+    z-index: -1;
+    width: 96%;
+    min-width: 650px;
+    max-width: 920px;
+    margin-top: -19px;  }  .StepListItemContainer {
+    display: inline;
+    z-index: 1;
+    position: relative;  }  .StepSubLabelContainer {
+    text-align : center;
+    font-size : 0.8em;
+    margin-top : 2px; }  .StepLabelContainer {
+    box-shadow : 0px 0px 6px #808080;
+    width : 18px;
+    height : 18px;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+    line-height : 18px;
+    background-color: #033649;
+    border : 1px black solid;
+    color: #fff; }  .StepLabelContainerDisabled {
+    background-color : #033649; }  .StepLabelContainerCurrent {
+    background-color : #bdd5e6;   }  .StepLabelCurrent {
+    color : #fff; }  .StepSubLabelCurrent {
+    color: #033648;
+    font-weight: normal;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    font-size: 18px;}  .StepListItemCurrent {}  .StepListItemDisabled {
+    color : Gray; }  .StepSubLabelDisabled, .StepLabelDisabled {
+    color: #fff;
+    font-weight : normal;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    font-size: 18px; }  .StepCaption {
+    display : none; }  .StepHeaderContainer {
+    display : none;
+    text-align : center;
+    padding-top : 10px;
+    padding-bottom : 10px; }  .StepCaptionLabel {
+    font-style : italic;   }  .FooterContainer {
+    font-size : 0.8em;
+    text-align : center;
+    margin-left : 10%;
+    padding-top: 15px;
+    padding-bottom : 15px;
+    border-bottom-right-radius : 15px;
+    clear : both;
+    position: absolute;
+    width: 750px;  }  .StepContentContainer  {
+    position : relative;
+    padding-left : 10px;
+    padding-right : 10px; }  .StepSubContentContainer {
+    padding-top : 10px;
+    padding-left : 220px;
+    background-color: #eee; }  .GreetingContainer {
+    padding : 20px;
+    text-align : center; }  .UserContainer  {
+    width : 500px;
+    margin-left : auto;
+    margin-right : auto;   }  .ReturningUsersContainer {
+    width : 450px;
+    margin-left : auto;
+    margin-right : auto; }  .ReturningUsersContentContainer {
+    width : 340px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 15px;
+    padding-bottom : 15px; }  .TitleBar {
+    display : none;
+    /*   color : black;   border-top-left-radius : 5px;   border-top-right-radius : 5px;       background-color : #D8D8D8;*/
+    font-weight : bold;
+    text-align : center;
+    padding : 3px; }  .TitleBar
+    p {;}  .EntryCaptionContainer {
+    clear : both;
+    float : left;
+    line-height : 30px;
+    text-align : right;
+    height : 30px;
+    width : 200px;
+    margin-right : 10px;
+    font-weight: bold;}  .GeneralCaptionContainer {
+    width : 260px; } .CarCaptionContainer {
+    width : 225px; }  .ReturningUserCaptionContainer {
+    width : 170px; }  .NavButtonContainer {
+    position : relative;
+    height : 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    padding-top: 15px;}  .LeftNavButtonContainer  {
+    position : absolute;
+    left : 0px; }  .RightNavButtonContainer  {
+    position : absolute;
+    Right : 15px; }  .AddUnitNavButtonContainer {
+    position : absolute;
+    Right : 100px; }  .EntrySeparator {
+    clear : both; }  .EntryContainer {
+    float : left;
+    line-height : 30px;
+    height : 30px;
+    margin : 0px;
+    padding : 0px;
+    text-align : left; }  .EmailEntry {
+    width : 150px; }  .ReturningEmailEntry {
+    width : 150px; }  .ReturningPasswordEntry {
+    width : 150px; }  .PasswordEntry {
+    width : 150px; }  .ReturningUserLinkContainer {
+    text-align : center; }  .PasswordForgetLinkContainer {
+    margin-top : 15px;  }  .UserContentContainer {
+    padding-top : 15px; }  .WelcomeEntry {
+    width : 150px; }  .WelcomeZipCodeEntry {
+    width : 75px; }  .NewUserCaptionContainer {
+    width : 200px; }  .NewUserLinkContainer {
+    text-align : center; }  .ReturningUserLinkContainer {
+    margin-top : 15px; }  .SmallNumberEntry {
+    width : 50px; } .LargeNumberEntry {
+    width : 100px; }  .Error {
+    color : Red; }  .ZipCodeError {
+    font-size : 1.2em;
+    font-weight : bold; }  .WelcomeCaptionContainer {
+    width : 250px; }  .WelcomeErrorContainer {
+    margin-top : 15px; }  .WelcomeContinueButtonContainer {
+    margin-top : 15px; }  .NameEntry {
+    width : 150px;}  .SSNEntry {
+    width : 100px; }  .AddressEntry {
+    width : 200px; }  .ZipCodeEntry {
+    width : 70px; }  .PhoneEntry {
+    width : 120px; }  .PasswordEntry {
+    width : 150px; }  .PasswordConfirmEntry {
+    width : 150px; }  .EntryRequiredContainer {
+    margin-top : -8px;
+    margin-bottom : -5px;
+    width : 200px;
+    text-align : right;
+    clear : both;
+    float : left;
+    color : Gray;
+    font-size : 0.8em;
+    font-style : italic; }  .EntryOptionalContainer {
+    margin-top : -8px;
+    margin-bottom : -5px;
+    width : 200px;
+    text-align : right;
+    clear : both;
+    float : left;
+    color : Gray;
+    font-size : 0.8em;
+    font-style : italic; }   .GeneralEntryRequiredContainer {
+    width : 260px; } .DriverEntryRequiredContainer {
+    width : 275px; } .CarEntryRequiredContainer {
+    width : 225px; }  .SectionDivider {
+    height: 1px;
+    text-align: left;
+    border-top:1px silver solid;
+    height : 20px;
+    margin-top : 20px;
+    position : relative;
+    margin-right : auto;
+    margin-left : auto;
+    width : 750px; }  .SectionHelpIcon {
+    width : 24px;
+    height : 24px;
+    background-image : url(images/infosmall.png);
+    float : left;
+    margin-top : -13px;
+    padding-right : 5px;
+    background-repeat : no-repeat;
+    cursor : pointer; }  .FirstSectionDivider {
+    margin-top: 40px;}  .SectionLabel {
+    position:relative;
+    padding-right:10px;
+    top:-10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; }  .PasswordSectionLabel {
+    float:left; }  .SectionDividerExtraContainer1 {
+    display : inline; }  .SectionDividerExtraContainer2 {
+    height : 1px;
+    background-color : Gray;
+    margin-top : -8px;
+    margin-right : 10px;
+    display : inline; }  .SectionDividerCaption  {
+    float : left; }  .EntrySection { }  .GeneralNameSection {
+    min-width: 600px;  }  .InfoSection {
+    float : left;
+    margin-left : 10px;
+    margin-right : 10px;
+    margin-bottom : 10px;
+    font-weight : bold;
+    width : 155px;
+    display:none; }  .EntryEndingDivider {
+    clear : both; }  .DateEntryContainer {
+    float : left; }  .DateEntry {
+    width : 100px; }  .DateImageContainer {
+    width : 16px;
+    height : 15px;
+    cursor : pointer;
+    float : left;
+    margin-left : -20px;
+    margin-top : 7px; }  .DateExtraContainer {
+    clear : both; }  .FCRACaptionContainer  {
+    text-align : justify;
+    margin-left : 20px;
+    margin-right : 30px;
+    line-height : normal; }  .FRCASeparator {
+    clear : both;}  .FCRAEntryCaptionContainer  { }  .FCRARequiredContainer {  }  .FCRALink {
+    white-space : nowrap;
+    color: #059194; }  .AntiSpamContainer {
+    margin-left : 210px; }  .NormalLinkContainer {
+    display : none; }  .SmallButton {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    display: block;
+    margin: 20px auto;
+    font-weight: 900;
+    width: 175px;
+    background-color: #033649;
+    border-radius: 50px;
+    height: 30px;
+    color: #fff;
+    padding: 15px 30px 30px;
+    margin-bottom: 20px;
+    font-size: 20px;}  .SmallButton:Hover {
+    cursor : pointer;
+    background-color : #056285;
+    background-image : none; }  .LargeButton {
+    background-image : url(images/largebuttongradientlight.png);
+    background-repeat : repeat-x;
+    border :  1px solid gray;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    cursor : pointer;
+    width : 100px;
+    height : 40px;
+    background-color : #B1B2C9;
+    font-weight : normal; }  .LargeButton:hover {
+    background-image : none;
+    border :  1px solid gray;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    cursor : pointer;
+    width : 100px;
+    height : 40px;
+    background-color : white;
+    font-weight : normal; }
+    span#ctl00_CPH_AddressLabel {     font-weight: bold; }
+    span#ctl00_CPH_CountyCityLabel {     font-weight: bold; }
+    span#ctl00_CPH_StateZipLabel {     font-weight: bold; }  .AlertContainer  {
+    visibility : hidden;
+    background-image : url(images/warningsmall.png);
+    width : 20px;
+    height : 20px;
+    float : left;
+    margin-left : 2px;
+    margin-top : 5px;
+    cursor : pointer; }  .AlertText {
+    display : none; }  .InfoIconContainer  {
+    color : transparent;
+    display : none;
+    background-image : url(images/infosmall.png);
+    width : 24px;
+    height : 24px;
+    float : left;
+    margin-left : 2px;
+    margin-top : 3px;
+    cursor : pointer; }  .AlertVisible {
+    visibility : visible; }  .AlertRequired {
+    color : Red; }  .AlertControl {
+    background-color : #FFE0E0; }  .HelpContainer {
+    left : 0px;
+    top : 0px;
+    padding : 10px;
+    width : 250px;
+    background-color : #FFFFC0;
+    position : absolute;
+    visibility : hidden;
+    box-shadow : 0px 0px 10px #808080;
+    border-radius : 10px;
+    border : 1px silver solid; }  .InfoContainer {
+    left : 0px;
+    top : 0px;
+    visibility:hidden;
+    padding : 10px;
+    min-width : 250px;
+    max-width : 350px;
+    background-color : #EFEFFF;
+    position : absolute;
+    box-shadow : 0px 0px 10px #808080;
+    border-radius : 10px;
+    border : 1px silver solid; }  .InfoVisible, .HelpVisible {
+    visibility : visible; }  .UnitGridCell  {
+    padding-right : 20px;
+    padding-left : 3px;
+    padding-bottom : 3px;
+    padding-top : 3px;
+    white-space : nowrap; }  .UnitGrid {
+    margin : 0px;
+    padding : 0px;
+    width : 100%;}  .UnitGridContainer {
+    box-shadow : 0px 0px 6px #808080;
+    border : 1px silver solid;
+    padding : 15px;
+    margin-bottom : 30px;
+    margin-right : auto;
+    margin-left: auto;
+    width: 750px;  }  .UnitGridLinkDisabled {
+    display : none; }  .UnitGridDisabledLabel {
+    display : none;
+    color : gray; }  .UnitGridDisabledLabelVisible {
+    display : inline;
+    color : gray; }  .UnitNumberLabel {
+    font-weight : bold; }  .UnitNameLabel {
+    font-weight : bold; }  .LastUnitCell {
+    width: 100px;
+    float: right; }  .DialogBackground {
+    position : fixed;
+    background-color : silver;
+    left : 0px;
+    top : 0px;
+    width : 100%;
+    height : 100%;
+    z-index : 9999998;
+    opacity : 0.3;
+    filter : alpha(opacity = 30); }  .DialogContainer {
+    background-color : white;
+    text-align : center;
+    border-radius : 5px;
+    box-shadow : 0px 0px 6px #808080;   }   .DialogContentContainer {
+    padding : 20px; }  .DialogButtonContainer {
+    padding : 10px; }  .DialogHeaderContainer {
+    background-color : #E0E0E0;
+    padding : 5px;
+    border-top-left-radius : 5px;
+    border-top-right-radius : 5px;
+    font-weight : bold; }  .AddUnitContainer {
+    margin-top : 10px;
+    margin-left : 4px;}  .WelcomeEntryRequiredContainer {
+    width : 250px; }  .UserModeLinkContainer  {
+    padding-top : 15px;
+    padding-bottom : 15px;
+    text-align : center; }  .WelcomeContinueButtonContainer {
+    text-align : center;
+    margin-bottom : 30px; }  .Selection {
+    background-color: #059194;
+    color : #fff;
+    font-weight : normal;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    font-size: 18px; }  .DriverCaptionContainer, .DriverEntryRequiredContainer {
+    width : 260px; }  .Bold {
+    font-weight  : bold; }  .WelcomeCaptionContainer, .WelcomeEntryRequiredContainer {
+    width : 180px; }  .StandardListContainer {
+    height : 250px;
+    overflow-y : scroll;
+    overflow-x : hidden;
+    border : 1px silver solid;
+    padding : 5px; }  .ViolGrid {
+    margin : 0px;
+    padding : 0px;
+    padding-right : 10px;
+    width : 100%;}  .ViolDateEntryContainer {
+    margin-left : 2px;
+    float:left;
+    line-height : 30px;
+    height : 30px;} .ViolDescEntryContainer {
+    float:left;
+    line-height : 30px;
+    height : 30px;} .ViolDescSubContainer {
+    float:left; } .ViolDateLabel {
+    margin-left : 0px;
+    margin-right : 0px; }  .ViolGridCell  {
+    padding-right : 5px;
+    white-space : nowrap;
+    padding-top : 5px;
+    text-align : left; }  .LastViolGridCell { }  .ViolEntryContainer  {
+    margin-left : 0px;
+    margin-right : -90px; }  .ViolDeleteCell {
+    vertical-align : top;
+    padding-top : 10px;
+    text-align : left;}  .ViolGridRow {
+    background-color : white;
+    border-bottom : 1px silver solid;
+    border-top : 1px silver solid;}  .ViolNumberCell {
+    font-weight : bold;
+    vertical-align : top;
+    padding-top : 10px; }  .ViolAttrEntry {
+    width : 75px; }  .ViolContainer  {
+    box-shadow : 0px 0px 6px #808080;
+    border : 1px silver solid;
+    margin-right : 15px;
+    margin-top : 5px; }  .ViolEntrySeparator {}  .AddViolLinkContainer {
+    margin-top : 5px; } .ViolAttrLabel {
+    white-space:nowrap;} .ViolAttrContainer {
+    padding-bottom : 5px; }  .ViolContentContainer {
+    padding-left : 5px;
+    padding-right : 5px; }  .AddUnitNavButton, .AddUnitNavButton:hover {
+    width : 135px; }  .AddUnitNavButtonDisabled {
+    color : Silver; }  .NoInfoContainer {
+    text-align : center;
+    padding-top : 100px;
+    padding-bottom : 100px; }  .CarVINEntry {
+    width : 175px; }  .CarDetailCell {
+    text-align : center;
+    white-space : nowrap;
+    padding-top : 2px;
+    padding-bottom : 2px;
+    padding-left : 2px;
+    padding-right : 2px; }                  .CarDetailHeaderCell {
+    font-weight : bold;
+    white-space : nowrap;
+    text-align : center;
+    padding-bottom : 3px;
+    padding-left : 2px;
+    padding-right : 2px; }  .CarDetailContainer {
+    width : 700px; }  .CarDetailGrid {
+    width : 650px; }  .CarDetailListContainer  {
+    padding : 5px;
+    border : none; }  .CarDetailContentContainer {
+    padding : 5px; }  .PackageCheckContainer {
+    height : 30px;
+    line-height : 30px; }  .PackageButtonLabel {
+    font-weight : bold; }  .PackageDescriptionContainer {
+    font-size : 0.85em;
+    padding-left : 18px; }  .PackageContainer {
+    width : 300px;
+    margin-bottom : 10px;
+    float : left;
+    margin-right : 20px;
+    margin-left: 20%;}  .LimitPackageEndingDivider {
+    clear : both;
+    border-bottom : 1px silver solid;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;}  .PackageLimitsContainer {
+    padding-top : 30px;
+    float : left; }  .LimitContainer {
+    line-height : normal; }  .MainPackageContainer {
+    margin-bottom : 30px; }   .QuoteCoveragesContentContainer {
+    text-align : left; }  .QuoteCoveragesContentContainer
+    p { white-space : nowrap; }  .QuoteLimitsCell {
+    padding-left : 15px; }  .QuoteContactContainer {
+    margin-bottom : 10px; } .QuoteContactContentContainer {
+    margin-left : 10px;
+    padding : 10px; }  .QuoteExtraContainer1 {
+    clear : both;}  .MainQuoteContainer {}  .QuoteUnitsContainer { }  .QuoteDriverContainer {
+    margin-left : 15px; } .QuoteCarContainer {
+    margin-left : 15px;
+    margin-top : 10px; } .QuoteUnitsExtraContainer1 {
+    clear : both;  } .QuoteDriverGrid {
+    width : 100%; } .QuoteCarGrid {
+    width : 100%; }  .QuoteDetailLabel { }   .QuoteDownPaymentLabel {
+    font-weight : bold;
+    font-size : 1.2em; } .QuoteTotalContainer {
+    float : right;
+    margin-top : -20px; } .QuoteMonthlyPayContainer {
+    float:right;
+    margin-top : -20px;} .QuoteCompanyImageCaption {
+    display : none; } .QuoteContainer { } .QuotePremiumCaption {
+    height : 20px;
+    line-height : 20px;
+    display:inline;
+    font-weight : bold; } .QuotePremiumContainer {
+    text-align : center; } .QuotePremiumContentContainer {
+    text-align : right; } .MainQuotePremiumContainer {
+    padding-left : 0px;
+    padding-right : 20px; } .QuoteCompanyImageContainer {
+    float : left;
+    padding : 10px;
+    font-weight : bold;
+    clear : both; }  .QuoteMainCaptionBar {
+    height : 20px;
+    line-height : 20px; } .QuotePremiumSubContainer {
+    border-left : 1px silver solid;
+    padding : 10px;
+    padding-top : 30px;
+    padding-bottom : 30px; } .QuoteCaptionContainer {
+    text-align : left;
+    padding : 3px;
+    background-color : white; } .QuotePaymentsLabel, .QuoteTotalPremiumLabel {
+    font-size : 1.8em;
+    font-weight : bold;}  .CarCoverageGridCaptionHeaderCell {
+    text-align : left;
+    white-space : nowrap; }  .CarCoverageGridCaptionCell {
+    text-align : center;
+    white-space : nowrap; }  .CarCoverageGridCell {
+    white-space : nowrap; }  .QuoteLimitsCaptionCell {
+    white-space : nowrap;
+    text-align : left;
+    padding-right : 15px;} .QuoteLimitsCell {
+    white-space : nowrap;
+    padding-left : 0px;} .QuoteTable {
+    margin-left : 15px; } .QuotePremiumCell { } .QuoteCoverageCell { } .QuoteLimitsTable { } .QuotePremiumCell {
+    vertical-align : middle; } .QuoteCoverageCell {
+    vertical-align : top; } .QuoteDisplayContainer {
+    margin-right : 15px;  }  .QuoteUnitsSeparator {
+    clear : both; } .QuoteUnitHeaderCell {
+    font-weight : bold;
+    padding-right : 10px;
+    text-align : left; } .QuoteUnitCell {
+    padding-right : 10px;
+    text-align : left; } .QuoteNonOwnerContainer { } .QuoteDisclaimerContainer {
+    margin : 0px 20px 20px 20px;
+    font-style : italic; } .ComparisonDisclaimerContainer {
+    font-style : italic;
+    width: 750px;}  .RateErrorMainLabel {
+    font-weight : bold;} .RateErrorMessageContainer {
+    text-align : center;} .ResponseBox, .RequestBox {
+    width : 45%;
+    height : 600px; }  .DriverAssignCaptionContainer {
+    width : 200px; } .DriverAssignEntryRequiredContainer {
+    width : 200px; }  .ExtraDeleteLinkContainer {
+    display : none; }  .MainBackground {
+    background-color: #eee; }  .Spokesperson {
+    margin-left : -150px;
+    margin-top : -95px;
+    z-index : -1; }  .QuoteReturnLinkContainer {
+    margin-top : 20px; }  .CarDetailGridAlternatingRow {
+    background-color : #E5E5E5; }  .DebugContainer  {
+    text-align : right; }   .Hidden {
+    display : none; }  .RateErrorContainer, .RateProgressContainer {
+    background-color : white;
+    border : 1px silver solid;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 10px 30px 10px;  }  .RateErrorMessageContainer, .RateMessageContainer {
+    text-align : center;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    position:relative;} .RateErorMessageCaptionContainer, .RateMessageCaptionContainer {
+    text-align : center;
+    font-weight : bold;
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    margin-top: -16px;
+    width: 750px; } .CaptionBar {
+    background-color : #bdd5e6; } .ButtonsContainer {
+    margin-left: -5px; } .CellContainer { }  .AddInfoHeaderLabel, .ApplicationHeaderLabel {
+    font-weight : bold;
+    font-size : 1.4em; } .AddInfoHeader, .ApplicationHeader {
+    margin-bottom : 25px;
+    margin-top : 15px; } .AddInfoUnitCaptionContainer {
+    font-weight : bold;
+    margin-top : 10px;
+    margin-bottom : 10px; } .AddInfoUnitSeparator {
+    margin-bottom : 20px; } .AddInfoMakeModelLabel {
+    font-weight : bold; } .AddInfoCaptionContainer {
+    width : 225px; } .AddInfoEntryRequiredContainer {
+    width : 225px; } .AddInfoExclusionNotice {
+    margin-top : 10px;
+    text-align : left; } .AddInfoExcludeReasons {
+    margin-left : 20px;
+    margin-top : 10px; } .AddInfoDisclaimerContainer {
+    margin-top : 25px; } .AddInfoHelpListItem {
+    margin-left : 15px; }  .ApplicationCreditCardContainer {
+    display : none; } .ApplicationBankDraftContainer {
+    display : none; } .ApplicationCardSecurityCodeEntry {
+    width : 50px; } .ApplicationTotalPremiumContainer {
+    padding-left : 15px;
+    margin-top : 25px;
+    font-size : 1.2em;} .ApplicationDownPaymentContainer {
+    padding-left : 15px;
+    font-weight : bold;
+    margin-bottom : 10px;
+    font-size : 1.2em;} .ApplicationCaptionHeaderCell {
+    font-weight : bold;
+    padding-right : 10px;
+    text-align : left; } .ApplicationCaptionCell {
+    padding-right : 20px;
+    text-align : left; } .ApplicationUnitHeaderCell {
+    font-weight : bold;
+    padding-right : 10px;
+    text-align : left; } .ApplicationUnitCell {
+    padding-right : 10px;
+    text-align : left; } .ApplicationPremiumHeaderCell {
+    font-weight : bold;
+    padding-right : 10px;
+    text-align : right; } .ApplicationPremiumCell {
+    padding-right : 10px;
+    text-align : right; } .ApplicationLastCell {
+    padding-right : 0px; } .ApplicationPayPlanContainer {
+    margin-top : 15px;
+    padding-left : 15px; } .ApplicationPayPlanGrid {  } .ApplicationSelectionCell {
+    padding-right : 5px; } .ApplicationErrors {
+    color : Red;
+    text-align : left;
+    list-style-type: disc;
+    list-style-position:inside; } .ApplicationPayPlanAlternateRow {
+    background-color : #F0F0F0; } .ApplicationUnitSeparator {
+    margin-bottom : 20px; } .ApplicationEftCaptionPanel {
+    padding-left : 15px;
+    font-weight : bold;
+    margin-bottom : 10px;
+    padding-top : 10px; }  .ApplicationListContainer {
+    width : 350px;
+    height : 150px;
+    overflow-y : scroll;
+    overflow-x : hidden;
+    border : 1px silver solid;
+    padding : 5px; }  .QuoteUnitsMainContainer {
+    margin-bottom : 15px; } .BuyNowQuote {
+    margin-top : 15px; } .ApplicationDoneContainer  {
+    background-color : white;
+    border : 1px silver solid;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    margin : 30px 30px 30px 30px;
+    padding : 50px; }  .ApplicationDoneMessageContainer {
+    text-align : center;
+    font-weight : bold;}  .BindingLoadPanel  {
+    background-color : white;
+    border : 1px silver solid;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    margin : 30px 30px 30px 15px;
+    padding : 50px;
+    text-align : center;  }  .BindingLoadImage {  }  .BindingLoadLabel { }  .BindingErrorLabel {
+    color : Red; } .BindingErrorPanel  {
+    background-color : white;
+    border : 1px silver solid;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    margin : 30px 30px 30px 15px;
+    padding : 50px;
+    text-align : center;
+    display : none; }  .BindingReturnButton {
+    width : 200px; } .BindingReturnButton:hover {
+    width : 200px; } .BindingReturnButton:active {
+    width : 200px; }  .VisibleInfoIcon {
+    display : block;
+    float: right;
+    position:relative;
+    top : -3px; }  .CheckBox {
+    position : relative;
+    top : 2px;
+    margin-right : 4px;  }  .CountyEntryContainer {
+    float : left; } .CityEntryContainer {
+    float : left;
+    margin-left : 3px; } .TerritorySeparator {
+    clear : both; }  .InsuredStateContainer {
+    float : left; } .InsuredZipContainer {
+    float : left;
+    margin-left : 3px; } .InsuredCityStateSeparator {
+    clear : both; }  .LicenseStatusContainer {
+    float : left;
+    margin-right: 3px;} .StateLicensedContainer {
+    float : left;} .LicenseEntrySeparator {
+    clear : both; }  .PhoneEntryContainer {
+    float : left; } .PhoneTypeContainer {
+    float : left;
+    margin-left : 3px; } .PhoneEntrySeparator {
+    clear : both; } .LanguageLabelContainer {
+    text-align : right;
+    right : 0px; }  .CarCaptionLabel {
+    font-weight : bold; } .QuoteCarCaptionContainer {
+    float : left;
+    width : 10%; } .QuoteCarCompDedCaptionContainer, .QuoteCarCollDedCaptionContainer {
+    width : 25%; } .QuoteCarCaptionSeparator {
+    clear : both; }  .QuoteCarDataContainer {
+    float: left;
+    width : 10%;} .QuoteCarCompDedContainer, .QuoteCarCollDedContainer {
+    width : 25%; } .QuoteCarSeparator {
+    clear : both; }  .BreakdownCarLabel {
+    float: left;
+    padding-right: 20px;
+    width: 80px; } .BreakdownHeaderCaptions {
+    margin-top: 5px; } .BreakdownHeaderCaption {
+    float: left;
+    padding-right: 10px;
+    text-transform: uppercase;
+    width: 160px;
+    font-weight: bold;} .BreakdownHeaderLabel {
+    float: left;
+    padding-right: 10px;
+    width: 160px;
+    line-height: 2;} .BreakdownCarCaptions {
+    margin-top: 5px;} .BreakdownCarCaption {
+    float: left;
+    padding-right: 20px;
+    text-transform: uppercase;
+    width: 80px;
+    font-weight: bold;} .BreakdownCarPDCaptionContainer {
+    width: 200px;} .BreakdownCarPDLabel {
+    width: 200px;} .BreakdownCarPDLabelContainer {
+    width: 200px;} .BreakdownCarYearLabel {
+    width: 60px;} .BreakdownLimits{
+    position: relative;
+    margin-top: 10px; } .BreakdownLimitsCaptions {
+    text-transform: uppercase;
+    float: left;
+    padding-right: 60px;
+    line-height: 2;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    font-weight: bold;}  .BreakdownLimitsCaptions
+    span { display:block; } .BreakdownLimitsLabels {
+    float: left;
+    line-height: 2;
+    position: absolute;
+    width: 300px;
+    left: 300px; }  .BreakdownLimitsLabels
+    span { display:block; } .BreakdownHeaderTotalLabel {
+    padding-right: 10px;
+    width: 75px;
+    font-size: 120%;
+    line-height: 1;
+    color: dodgerblue;}  .BreakdownHeaderTermLabel {
+    padding-left: 10px; }  .BreakdownCarYearLabelContainer{
+    width: 45px; } .BreakdownCarYearCaptionContainer {
+    width: 45px; } .BreakdownCarMakeCaptionContainer{
+    width: 116px;
+    padding-right: 5px;} .BreakdownCarMakeLabelContainer{
+    width: 116px;
+    padding-right: 5px;} .BreakdownCarModelCaptionContainer{
+    width: 116px;
+    padding-right: 5px;} .BreakdownCarModelLabelContainer{
+    width: 116px;
+    padding-right: 5px;} .BreakdownCarPDLabelContainer{} .BreakdownCarTowingLabelContainer{} .BreakdownCarRentalLabelContainer{
+    padding-right: 55px; } .BreakdownCarRentalCaptionContainer{
+    padding-right: 55px; }  .ViewQuoteButtonContainer {
+    position:absolute;
+    bottom:0;
+    right:0;  }  .CompanyNameImageContainer {
+    padding-left: 25px; }  .PreviewRow     {
+    border: 1px solid #E0E0E0;
+    vertical-align: bottom;
+    border-bottom: 10px solid #E0E0E0;
+    background-color: #FAFAFA;
+    width: 750px;
+    height: 120px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    position:relative;  }   .ComparisonNumberContainer {
+    position: absolute;
+    float: left;
+    top: 50px;   }  .ComparisonCaptionContainer {
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    width: 155px;  }  .FlatButton {
+    font-size : 1.1em;
+    padding : 5px 5px;
+    text-decoration : none;
+    cursor : pointer;
+    width: 95px;
+    height: 18px;
+    color: white;
+    height: 18px;
+    margin: 0;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    right: 2px;
+    bottom: 15px;
+    border-radius: 5%;  }  .ContactMeButton {
+    background-color: #207ec8;
+    color: white; } .BreakdownContainer {
+    position: absolute;
+    width: 800px;
+    display: none;
+    color: #696969;
+    padding-left: 25px;
+    top: 110px; }  .ViewQuoteButton {
+    width:90px;
+    background-color: #FAFAFA;
+    border-top:none;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #e0e0e0;
+    height:0;
+    line-height: 26px;
+    text-decoration:none;
+    display:block;
+    color: #808080;
+    padding-left:10px;
+    cursor: pointer; } .ViewQuoteButtonClose {
+    display: none;
+    color:dodgerblue;} .ComparisonBuyNowButton, .ComparisonCallToBuyButton {
+    background-color: #FF5722;
+    bottom: 50px;  }  .ComparisonTextField {
+    text-align : left;
+    white-space :normal;
+    padding : 5px;
+    border-right : 1px silver solid;} .ComparisonTextHeader {
+    text-align : left;
+    white-space :nowrap;
+    padding : 5px; } .ComparisonNumberField {
+    padding-right : 5px;
+    padding-left : 5px;
+    text-align : center;
+    padding-top: 50px;
+    vertical-align: top; } .ComparisonNumberHeader {
+    text-align : right;
+    text-align : center;
+    padding : 3px; } .ComparisonNumber {
+    font-size : 1.8em; } .ComparisonNumberCaption {
+    color:#96a0ac;} .ComparisonImageField {
+    text-align : center;
+    padding-bottom: 40px;
+    vertical-align: top; } .ComparisonCompanyImage {
+    position: absolute;
+    top: 10px;
+    max-width: 150px;
+    max-height: 70px; } .ComparisonGridContainer {
+    padding-left : 0px;
+    padding-right : 10px;
+    padding-bottom : 20px;
+    width: 750px;
+    margin: 0 auto;  } .CompanyComparisonRowExpanded {
+    height: 420px;  }  .QuoteDetailCaptionLabel {
+    font-size : 1.3em;
+    font-weight : bold;
+    margin-bottom : 5px; } .ComparisonBreakdownProgressPanel {
+    float:left;
+    padding-top : 5px; } .ComparisonLastCell {
+    padding-left : 16px;
+    padding-bottom : 15px;
+    padding-top : 100px;
+    position: relative;
+    width: 160px;} .ComparisonNameLabel {
+    color: #96a0ac; }  .RateProgressImageContainer  {
+    width : 220px;
+    height : 19px;
+    margin-left : auto;
+    margin-right : auto;
+    background-image : url(Images/progress.gif);
+    position: relative;
+    top: 10px;  }  .ComparisonSortContainer {
+    text-align : right;
+    float: right;
+    line-height : 30px;
+    height : 30px;
+    padding-bottom: 10px; } .ComparisonSortCaptionContainer {
+    text-align : right;
+    float: right;
+    line-height : 30px;
+    height : 30px;
+    margin-right : 5px; }  .ComparisonHeaderContainer {
+    font-size : 1.3em;
+    font-weight : bold;
+    margin-bottom : 5px;
+    float:left; }  .ComparisonSortSeparator {
+    clear : both; } .ComparisonContainer  {
+    position: relative;
+    float:left;
+    padding-top: 80px;
+    width:130px;
+    height: 18px;  } .ComparisonImageContainer{} .DownPaymentContainer {
+    padding-left: 65px; } .MobileMonthlyPremium {
+    display: none;} .ComparisonSortPanel{
+    width: 750px;} .BreakdownHeaderTermLabelMobile{
+    display: none;} .FinalTextLabel{
+    position: absolute;
+    left: auto;
+    right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 750px;
+    padding-top: 113px; } .FinalTextLabelContainer{
+    position: relative;
+    height: 250px;} .MobileBreak {
+    display: none; } .MobileRequired {
+    display: none; } .CarInfoSection {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto; } .CarCoverageSection {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto; } .EntrySection {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;} .BreakdownCarDetailsContainer {
+    width: 50px;
+    float: left;
+    height: 40px;
+    padding-right: 60px;} .BreakdownCarYearLabelsContainer {
+    padding-right: 10px;} .BreakdownCarMakeLabelsContainer {} .BreakdownCarModelLabelsContainer {} .BreakdownCarCompAndCollLabelsContainer {
+    padding-right: 110px;
+    width: 100px; } .BreakdownCarTowingLabelsContainer {} .BreakdownCarRentalLablesContainer {} .ItcDateEntry {
+    width: 40px;
+    text-align: center;} .EffDateAlertContainer  {
+    display : none;
+    background-image : url(images/warningsmall.png);
+    width : 20px;
+    height : 20px;
+    float : left;
+    margin-left : 2px;
+    margin-top : 5px;
+    cursor : pointer; } .DateCaptionContainer {
+    width: 260px;} .DateRequiredContainer {
+    width: 260px;} .HeaderLabel {
+    font-weight: bold;
+    font-size: 14pt;
+    margin-left: -14px; } .PageHeader {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 750px;
+    text-align: left; } .SubHeaderLabel {
+    font-size: 14px;
+    margin-left: -14px;} .GridButtonContainer {
+    padding-bottom: 4px; } .DriverIncludedlabelContainer {
+    text-align: right;
+    margin-bottom:-15px;
+    margin-top: -5px;
+    margin-right: 2px;
+    padding-bottom: 10px; } .EditDriverButtonContainer {
+    padding-bottom: 35px;
+    padding-top: 20px;} .DeleteDriverButtonContainer {
+    width: 100px;
+    padding-bottom: 45px; } .AddDriverButtonContainer {
+    width: 100px;
+    padding-top: 20px;} .DeleteButton {
+    width: 100px;
+    float: right; } .EditButton {
+    float: right;} .AddDriverButton {
+    width: 130px;
+    float: right; } .AddDriverButton:hover {
+    width: 130px;} .DeleteButton:hover {
+    width: 100px;} .driverRow {
+    width: 750px;
+    border-bottom: 1px solid black;
+    height: 90px;} .driverSelectedRow {
+    height: 80px; } .DriverNameLabel{
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: 'Open Sans', sans-serif;} .DriverLabel{
+    padding-top: 5px;} .DriverFirstCell {
+    padding-left: 25px;}  .CarIncludedlabelContainer {
+    text-align: right;
+    margin-bottom:-15px;
+    margin-top: -5px;} .EditCarButtonContainer {
+    padding-bottom: 35px;
+    padding-top: 20px;} .DeleteCarButtonContainer {
+    width: 100px;
+    padding-bottom: 45px; } .AddCarButtonContainer {
+    width: 100px;
+    padding-top: 20px;} .AddCarButton {
+    width: 140px;
+    float: right; } .AddCarButton:hover {
+    width: 140px;} .carRow {
+    width: 750px;
+    border-bottom: 1px solid black;
+    height: 90px;} .carSelectedRow {
+    height: 80px; } .CarDetailsLabel{
+    font-size: 11pt;
+    padding-top: 5px;} .CarFirstCell {
+    padding-left: 25px;} .AddUddDriverButtonContainer {
+    padding-left: 25px;
+    padding-top: 30px; } .AddUddCarButtonContainer {
+    padding-left: 10px;
+    padding-top: 30px; } .AddUddCarButton {
+    width: 90px; } .AddUddCarButton:hover {
+    width: 90px; }
+    span#ctl00_CPH_AddressLabel {     font-weight: bold; }
+    span#ctl00_CPH_CountyCityLabel {     font-weight: bold; }
+    span#ctl00_CPH_StateZipLabel {     font-weight: bold; }
+    span#ctl00_CPH_EmailAddressLabel {     font-weight: bold; }
+    span#ctl00_StepRepeater_ctl08_StepSubLabel {     color: #033649; }
+    span#ctl00_StepRepeater_ctl07_StepSubLabel {     color: #033649; }
+    span#ctl00_StepRepeater_ctl02_StepSubLabel {     color: #033649; }
+    a#ctl00_TermsLink {     text-decoration: none;
+    color: #2b9a9c; }
+    a#ctl00_ReturnLink {     color: #2b9a9c;
+    text-decoration: none; }
+    padding: 2;
+}
+
+div#ctl00_CPH_CarMakePanel {
+    padding: 20px 10px;
+}
+
+.EntrySection.CarCoveragermationSection {
+    padding: 20px;
+}
+
+div#ctl00_CPH_CarCompPanel {
+    /* padding: 20px 10px; */
+}
+
+div#ctl00_CPH_CarCollCaptionPanel {
+    padding: 20px 0px;
+}
+
+select#ctl00_CPH_CollisionCoverageEntry {
+    margin: 20px 0px;
+}
+
+a#ctl00_AgencyContactEmailLink {
+    text-decoration: none;
+    color: #059194;
+}
+
+div#ctl00_CPH_CarUsagePanel {
+    padding: 20px 10px;
+}
+
+div#ctl00_CPH_CarYearPanel {*  {
+    margin: 0px;
+    padding : 0px; }
+    body  {   font-family: 'Open Sans', sans-serif;
+    color: #033649;
+    font-size: 18px;
+    font-size : 13px;
+    margin : 0px;
+    padding : 0px;
+    background-color : #231f20;
+    min-width : 750px;
+    max-width : 1280px;
+    margin-left : auto;
+    margin-right : auto; }
+    html { height : 100%; }
+    h1 {   font-weight : bold;
+    font-size : 1.4em; }
+    a:visited {   text-decoration: none;
+    color: #059194; }
+    body * {     box-shadow: none !important;
+    background-color: #eee;
+    font-size: 18px; }
+    span#ctl00_CPH_EmailAddressLabel {     font-weight: bold; }
+    h2 {   font-weight : bold;
+    font-size : 1.0em; }
+    input::-moz-focus-inner /*Remove button padding in FF*/ {    border: 0;
+    padding: 0; }  /*Remove microsoft "clear" button on date entries*/ .DateEntry::
+    -ms-clear {display: none;
+    width:0;
+    height:0;}
+    input[type="text"], input[type="password"] {   border-radius : 0px;
+    padding : 3px;
+    box-shadow : inset 0px 0px 10px #E0E0E0;
+    border: 1px #059194 solid;
+    margin : 0px;
+    font-family : Helvetica, Arial, Sans-Serif;
+    font-size : 1.0em; }
+    option {padding-right : 10px;}
+    select {   font-family: 'Open Sans', sans-serif;
+    border-radius: 0px;
+    padding-left : 4px;
+    padding-right : 4px;
+    padding-top : 2px;
+    padding-bottom : 2px;
+    border: 1px #059194 solid;
+    box-shadow : inset 0px 0px 10px #E0E0E0;
+    font-size : 1.0em; }
+    div.UpdateProgressContainer {   position : fixed;
+    left : 50%;
+    top : 50%;
+    width : 300px;
+    height : 90px;
+    margin-left : -150px;
+    margin-top : -45px;
+    padding-top : 27px;
+    background-color : white;
+    border : none;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    text-align : center;
+    font-weight : bold;
+    color : black;
+    filter : alpha(opacity = 100);
+    z-index : 9999999;
+    border : 1px silver solid; }
+    div.UpdateProgressBackground {   position : fixed;
+    background-color : white;
+    left : 0px;
+    top : 0px;
+    width : 100%;
+    height : 100%;
+    z-index : 9999998;
+    opacity : 0.0;
+    filter : alpha(opacity = 0); }
+    div.ProgressExtraContainer {   width : 28px;
+    height : 28px;
+    margin-left : auto;
+    margin-right : auto;
+    background-image : url(images/spinner.gif); }  .MainContainer {
+    margin-left : auto;
+    margin-right : auto; }  .AgencyContactHeaderContainer {
+    display : none; }  .AgencyNameLabel {
+    font-weight : bold;
+    color: #033649;
+    font-family: 'Open Sans', sans-serif; }  .MainExtraContainer1 {
+    clear : both; }  .HeaderContainer {
+    position : relative; }  .AgencyInfoContainer {
+    display : none; }  .AgencyInfo {
+    margin : 0px;
+    text-decoration: none; }  .HomeLink {
+    text-decoration : none;
+    color: #059194; }  .HomeLink:Visited {
+    text-decoration : none;
+    color: #059194; }  .HomeLink:Hover {
+    text-decoration : none;
+    color: #059194; }  .PageContentExtraContainer1 {
+    clear : both;   }  .StepNavContainer { }  .StepListContainer {
+    margin-top : 5px;
+    padding-bottom : 15px;
+    position : relative;
+    height : 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;  }  .AgencyContactContainer {
+    position : absolute;
+    width : 200px;
+    top : 0px;
+    left : 0px;
+    padding : 0px;
+    margin-top : 15px;
+    margin-left : 10px;
+    margin-right : 10px; }  .AgencyContactInfoHeader {
+    font-weight : bold; }  .PageContentContainer {
+    border-bottom-right-radius : 15px;
+    border-bottom-left-radius : 15px;   }  .StepList {
+    z-index : 10;
+    text-align: justify;
+    display: inline-block;
+    min-width: 640px;
+    max-width: 775px;
+    padding-top: 10px;  }  .StepListHeaderContainer {
+    text-align : left;
+    background-color : Navy;
+    color : White; }  .StepNavHeaderContainer {
+    display : none; }  .AgencyContactInfoContainer {
+    margin : 10px;
+    padding-bottom : 10px;
+    z-index : 9999;
+    position:relative; }  .StepListItem {
+    display: inline-block;
+    vertical-align: top;
+    height: 16px;
+    margin-top: 5px;
+    z-index: 1;
+    width: 40px;  }  .StepExtraContainer1 {
+    width: 100% !important;
+    display: inline-block;
+    line-height: 0;
+    font-size: 0;  }  .StepLabel {
+    font-weight : bold;
+    color: #fff; }  .StepLine {
+    background-color : black;
+    margin-left: 2%;
+    height : 1px;
+    z-index: -1;
+    width: 96%;
+    min-width: 650px;
+    max-width: 920px;
+    margin-top: -19px;  }  .StepListItemContainer {
+    display: inline;
+    z-index: 1;
+    position: relative;  }  .StepSubLabelContainer {
+    text-align : center;
+    font-size : 0.8em;
+    margin-top : 2px; }  .StepLabelContainer {
+    box-shadow : 0px 0px 6px #808080;
+    width : 18px;
+    height : 18px;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+    line-height : 18px;
+    background-color: #033649;
+    border : 1px black solid;
+    color: #fff; }  .StepLabelContainerDisabled {
+    background-color : #033649; }  .StepLabelContainerCurrent {
+    background-color : #bdd5e6;   }  .StepLabelCurrent {
+    color : #fff; }  .StepSubLabelCurrent {
+    color: #033648;
+    font-weight: normal;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    font-size: 18px;}  .StepListItemCurrent {}  .StepListItemDisabled {
+    color : Gray; }  .StepSubLabelDisabled, .StepLabelDisabled {
+    color: #fff;
+    font-weight : normal;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    font-size: 18px; }  .StepCaption {
+    display : none; }  .StepHeaderContainer {
+    display : none;
+    text-align : center;
+    padding-top : 10px;
+    padding-bottom : 10px; }  .StepCaptionLabel {
+    font-style : italic;   }  .FooterContainer {
+    font-size : 0.8em;
+    text-align : center;
+    margin-left : 10%;
+    padding-top: 15px;
+    padding-bottom : 15px;
+    border-bottom-right-radius : 15px;
+    clear : both;
+    position: absolute;
+    width: 750px;  }  .StepContentContainer  {
+    position : relative;
+    padding-left : 10px;
+    padding-right : 10px; }  .StepSubContentContainer {
+    padding-top : 10px;
+    padding-left : 220px;
+    background-color: #eee; }  .GreetingContainer {
+    padding : 20px;
+    text-align : center; }  .UserContainer  {
+    width : 500px;
+    margin-left : auto;
+    margin-right : auto;   }  .ReturningUsersContainer {
+    width : 450px;
+    margin-left : auto;
+    margin-right : auto; }  .ReturningUsersContentContainer {
+    width : 340px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 15px;
+    padding-bottom : 15px; }  .TitleBar {
+    display : none;
+    /*   color : black;   border-top-left-radius : 5px;   border-top-right-radius : 5px;       background-color : #D8D8D8;*/
+    font-weight : bold;
+    text-align : center;
+    padding : 3px; }  .TitleBar
+    p {;}  .EntryCaptionContainer {
+    clear : both;
+    float : left;
+    line-height : 30px;
+    text-align : right;
+    height : 30px;
+    width : 200px;
+    margin-right : 10px;
+    font-weight: bold;}  .GeneralCaptionContainer {
+    width : 260px; } .CarCaptionContainer {
+    width : 225px; }  .ReturningUserCaptionContainer {
+    width : 170px; }  .NavButtonContainer {
+    position : relative;
+    height : 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    padding-top: 15px;}  .LeftNavButtonContainer  {
+    position : absolute;
+    left : 0px; }  .RightNavButtonContainer  {
+    position : absolute;
+    Right : 15px; }  .AddUnitNavButtonContainer {
+    position : absolute;
+    Right : 100px; }  .EntrySeparator {
+    clear : both; }  .EntryContainer {
+    float : left;
+    line-height : 30px;
+    height : 30px;
+    margin : 0px;
+    padding : 0px;
+    text-align : left; }  .EmailEntry {
+    width : 150px; }  .ReturningEmailEntry {
+    width : 150px; }  .ReturningPasswordEntry {
+    width : 150px; }  .PasswordEntry {
+    width : 150px; }  .ReturningUserLinkContainer {
+    text-align : center; }  .PasswordForgetLinkContainer {
+    margin-top : 15px;  }  .UserContentContainer {
+    padding-top : 15px; }  .WelcomeEntry {
+    width : 150px; }  .WelcomeZipCodeEntry {
+    width : 75px; }  .NewUserCaptionContainer {
+    width : 200px; }  .NewUserLinkContainer {
+    text-align : center; }  .ReturningUserLinkContainer {
+    margin-top : 15px; }  .SmallNumberEntry {
+    width : 50px; } .LargeNumberEntry {
+    width : 100px; }  .Error {
+    color : Red; }  .ZipCodeError {
+    font-size : 1.2em;
+    font-weight : bold; }  .WelcomeCaptionContainer {
+    width : 250px; }  .WelcomeErrorContainer {
+    margin-top : 15px; }  .WelcomeContinueButtonContainer {
+    margin-top : 15px; }  .NameEntry {
+    width : 150px;}  .SSNEntry {
+    width : 100px; }  .AddressEntry {
+    width : 200px; }  .ZipCodeEntry {
+    width : 70px; }  .PhoneEntry {
+    width : 120px; }  .PasswordEntry {
+    width : 150px; }  .PasswordConfirmEntry {
+    width : 150px; }  .EntryRequiredContainer {
+    margin-top : -8px;
+    margin-bottom : -5px;
+    width : 200px;
+    text-align : right;
+    clear : both;
+    float : left;
+    color : Gray;
+    font-size : 0.8em;
+    font-style : italic; }  .EntryOptionalContainer {
+    margin-top : -8px;
+    margin-bottom : -5px;
+    width : 200px;
+    text-align : right;
+    clear : both;
+    float : left;
+    color : Gray;
+    font-size : 0.8em;
+    font-style : italic; }   .GeneralEntryRequiredContainer {
+    width : 260px; } .DriverEntryRequiredContainer {
+    width : 275px; } .CarEntryRequiredContainer {
+    width : 225px; }  .SectionDivider {
+    height: 1px;
+    text-align: left;
+    border-top:1px silver solid;
+    height : 20px;
+    margin-top : 20px;
+    position : relative;
+    margin-right : auto;
+    margin-left : auto;
+    width : 750px; }  .SectionHelpIcon {
+    width : 24px;
+    height : 24px;
+    background-image : url(images/infosmall.png);
+    float : left;
+    margin-top : -13px;
+    padding-right : 5px;
+    background-repeat : no-repeat;
+    cursor : pointer; }  .FirstSectionDivider {
+    margin-top: 40px;}  .SectionLabel {
+    position:relative;
+    padding-right:10px;
+    top:-10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; }  .PasswordSectionLabel {
+    float:left; }  .SectionDividerExtraContainer1 {
+    display : inline; }  .SectionDividerExtraContainer2 {
+    height : 1px;
+    background-color : Gray;
+    margin-top : -8px;
+    margin-right : 10px;
+    display : inline; }  .SectionDividerCaption  {
+    float : left; }  .EntrySection { }  .GeneralNameSection {
+    min-width: 600px;  }  .InfoSection {
+    float : left;
+    margin-left : 10px;
+    margin-right : 10px;
+    margin-bottom : 10px;
+    font-weight : bold;
+    width : 155px;
+    display:none; }  .EntryEndingDivider {
+    clear : both; }  .DateEntryContainer {
+    float : left; }  .DateEntry {
+    width : 100px; }  .DateImageContainer {
+    width : 16px;
+    height : 15px;
+    cursor : pointer;
+    float : left;
+    margin-left : -20px;
+    margin-top : 7px; }  .DateExtraContainer {
+    clear : both; }  .FCRACaptionContainer  {
+    text-align : justify;
+    margin-left : 20px;
+    margin-right : 30px;
+    line-height : normal; }  .FRCASeparator {
+    clear : both;}  .FCRAEntryCaptionContainer  { }  .FCRARequiredContainer {  }  .FCRALink {
+    white-space : nowrap;
+    color: #059194; }  .AntiSpamContainer {
+    margin-left : 210px; }  .NormalLinkContainer {
+    display : none; }  .SmallButton {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    display: block;
+    margin: 20px auto;
+    font-weight: 900;
+    width: 175px;
+    background-color: #033649;
+    border-radius: 50px;
+    height: 30px;
+    color: #fff;
+    padding: 15px 30px 30px;
+    margin-bottom: 20px;
+    font-size: 20px;}  .SmallButton:Hover {
+    cursor : pointer;
+    background-color : #056285;
+    background-image : none; }  .LargeButton {
+    background-image : url(images/largebuttongradientlight.png);
+    background-repeat : repeat-x;
+    border :  1px solid gray;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    cursor : pointer;
+    width : 100px;
+    height : 40px;
+    background-color : #B1B2C9;
+    font-weight : normal; }  .LargeButton:hover {
+    background-image : none;
+    border :  1px solid gray;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    cursor : pointer;
+    width : 100px;
+    height : 40px;
+    background-color : white;
+    font-weight : normal; }
+    span#ctl00_CPH_AddressLabel {     font-weight: bold; }
+    span#ctl00_CPH_CountyCityLabel {     font-weight: bold; }
+    span#ctl00_CPH_StateZipLabel {     font-weight: bold; }  .AlertContainer  {
+    visibility : hidden;
+    background-image : url(images/warningsmall.png);
+    width : 20px;
+    height : 20px;
+    float : left;
+    margin-left : 2px;
+    margin-top : 5px;
+    cursor : pointer; }  .AlertText {
+    display : none; }  .InfoIconContainer  {
+    color : transparent;
+    display : none;
+    background-image : url(images/infosmall.png);
+    width : 24px;
+    height : 24px;
+    float : left;
+    margin-left : 2px;
+    margin-top : 3px;
+    cursor : pointer; }  .AlertVisible {
+    visibility : visible; }  .AlertRequired {
+    color : Red; }  .AlertControl {
+    background-color : #FFE0E0; }  .HelpContainer {
+    left : 0px;
+    top : 0px;
+    padding : 10px;
+    width : 250px;
+    background-color : #FFFFC0;
+    position : absolute;
+    visibility : hidden;
+    box-shadow : 0px 0px 10px #808080;
+    border-radius : 10px;
+    border : 1px silver solid; }  .InfoContainer {
+    left : 0px;
+    top : 0px;
+    visibility:hidden;
+    padding : 10px;
+    min-width : 250px;
+    max-width : 350px;
+    background-color : #EFEFFF;
+    position : absolute;
+    box-shadow : 0px 0px 10px #808080;
+    border-radius : 10px;
+    border : 1px silver solid; }  .InfoVisible, .HelpVisible {
+    visibility : visible; }  .UnitGridCell  {
+    padding-right : 20px;
+    padding-left : 3px;
+    padding-bottom : 3px;
+    padding-top : 3px;
+    white-space : nowrap; }  .UnitGrid {
+    margin : 0px;
+    padding : 0px;
+    width : 100%;}  .UnitGridContainer {
+    box-shadow : 0px 0px 6px #808080;
+    border : 1px silver solid;
+    padding : 15px;
+    margin-bottom : 30px;
+    margin-right : auto;
+    margin-left: auto;
+    width: 750px;  }  .UnitGridLinkDisabled {
+    display : none; }  .UnitGridDisabledLabel {
+    display : none;
+    color : gray; }  .UnitGridDisabledLabelVisible {
+    display : inline;
+    color : gray; }  .UnitNumberLabel {
+    font-weight : bold; }  .UnitNameLabel {
+    font-weight : bold; }  .LastUnitCell {
+    width: 100px;
+    float: right; }  .DialogBackground {
+    position : fixed;
+    background-color : silver;
+    left : 0px;
+    top : 0px;
+    width : 100%;
+    height : 100%;
+    z-index : 9999998;
+    opacity : 0.3;
+    filter : alpha(opacity = 30); }  .DialogContainer {
+    background-color : white;
+    text-align : center;
+    border-radius : 5px;
+    box-shadow : 0px 0px 6px #808080;   }   .DialogContentContainer {
+    padding : 20px; }  .DialogButtonContainer {
+    padding : 10px; }  .DialogHeaderContainer {
+    background-color : #E0E0E0;
+    padding : 5px;
+    border-top-left-radius : 5px;
+    border-top-right-radius : 5px;
+    font-weight : bold; }  .AddUnitContainer {
+    margin-top : 10px;
+    margin-left : 4px;}  .WelcomeEntryRequiredContainer {
+    width : 250px; }  .UserModeLinkContainer  {
+    padding-top : 15px;
+    padding-bottom : 15px;
+    text-align : center; }  .WelcomeContinueButtonContainer {
+    text-align : center;
+    margin-bottom : 30px; }  .Selection {
+    background-color: #059194;
+    color : #fff;
+    font-weight : normal;
+    font-family: "museo-slab",serif;
+    font-style: normal;
+    font-size: 18px; }  .DriverCaptionContainer, .DriverEntryRequiredContainer {
+    width : 260px; }  .Bold {
+    font-weight  : bold; }  .WelcomeCaptionContainer, .WelcomeEntryRequiredContainer {
+    width : 180px; }  .StandardListContainer {
+    height : 250px;
+    overflow-y : scroll;
+    overflow-x : hidden;
+    border : 1px silver solid;
+    padding : 5px; }  .ViolGrid {
+    margin : 0px;
+    padding : 0px;
+    padding-right : 10px;
+    width : 100%;}  .ViolDateEntryContainer {
+    margin-left : 2px;
+    float:left;
+    line-height : 30px;
+    height : 30px;} .ViolDescEntryContainer {
+    float:left;
+    line-height : 30px;
+    height : 30px;} .ViolDescSubContainer {
+    float:left; } .ViolDateLabel {
+    margin-left : 0px;
+    margin-right : 0px; }  .ViolGridCell  {
+    padding-right : 5px;
+    white-space : nowrap;
+    padding-top : 5px;
+    text-align : left; }  .LastViolGridCell { }  .ViolEntryContainer  {
+    margin-left : 0px;
+    margin-right : -90px; }  .ViolDeleteCell {
+    vertical-align : top;
+    padding-top : 10px;
+    text-align : left;}  .ViolGridRow {
+    background-color : white;
+    border-bottom : 1px silver solid;
+    border-top : 1px silver solid;}  .ViolNumberCell {
+    font-weight : bold;
+    vertical-align : top;
+    padding-top : 10px; }  .ViolAttrEntry {
+    width : 75px; }  .ViolContainer  {
+    box-shadow : 0px 0px 6px #808080;
+    border : 1px silver solid;
+    margin-right : 15px;
+    margin-top : 5px; }  .ViolEntrySeparator {}  .AddViolLinkContainer {
+    margin-top : 5px; } .ViolAttrLabel {
+    white-space:nowrap;} .ViolAttrContainer {
+    padding-bottom : 5px; }  .ViolContentContainer {
+    padding-left : 5px;
+    padding-right : 5px; }  .AddUnitNavButton, .AddUnitNavButton:hover {
+    width : 135px; }  .AddUnitNavButtonDisabled {
+    color : Silver; }  .NoInfoContainer {
+    text-align : center;
+    padding-top : 100px;
+    padding-bottom : 100px; }  .CarVINEntry {
+    width : 175px; }  .CarDetailCell {
+    text-align : center;
+    white-space : nowrap;
+    padding-top : 2px;
+    padding-bottom : 2px;
+    padding-left : 2px;
+    padding-right : 2px; }                  .CarDetailHeaderCell {
+    font-weight : bold;
+    white-space : nowrap;
+    text-align : center;
+    padding-bottom : 3px;
+    padding-left : 2px;
+    padding-right : 2px; }  .CarDetailContainer {
+    width : 700px; }  .CarDetailGrid {
+    width : 650px; }  .CarDetailListContainer  {
+    padding : 5px;
+    border : none; }  .CarDetailContentContainer {
+    padding : 5px; }  .PackageCheckContainer {
+    height : 30px;
+    line-height : 30px; }  .PackageButtonLabel {
+    font-weight : bold; }  .PackageDescriptionContainer {
+    font-size : 0.85em;
+    padding-left : 18px; }  .PackageContainer {
+    width : 300px;
+    margin-bottom : 10px;
+    float : left;
+    margin-right : 20px;
+    margin-left: 20%;}  .LimitPackageEndingDivider {
+    clear : both;
+    border-bottom : 1px silver solid;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;}  .PackageLimitsContainer {
+    padding-top : 30px;
+    float : left; }  .LimitContainer {
+    line-height : normal; }  .MainPackageContainer {
+    margin-bottom : 30px; }   .QuoteCoveragesContentContainer {
+    text-align : left; }  .QuoteCoveragesContentContainer
+    p { white-space : nowrap; }  .QuoteLimitsCell {
+    padding-left : 15px; }  .QuoteContactContainer {
+    margin-bottom : 10px; } .QuoteContactContentContainer {
+    margin-left : 10px;
+    padding : 10px; }  .QuoteExtraContainer1 {
+    clear : both;}  .MainQuoteContainer {}  .QuoteUnitsContainer { }  .QuoteDriverContainer {
+    margin-left : 15px; } .QuoteCarContainer {
+    margin-left : 15px;
+    margin-top : 10px; } .QuoteUnitsExtraContainer1 {
+    clear : both;  } .QuoteDriverGrid {
+    width : 100%; } .QuoteCarGrid {
+    width : 100%; }  .QuoteDetailLabel { }   .QuoteDownPaymentLabel {
+    font-weight : bold;
+    font-size : 1.2em; } .QuoteTotalContainer {
+    float : right;
+    margin-top : -20px; } .QuoteMonthlyPayContainer {
+    float:right;
+    margin-top : -20px;} .QuoteCompanyImageCaption {
+    display : none; } .QuoteContainer { } .QuotePremiumCaption {
+    height : 20px;
+    line-height : 20px;
+    display:inline;
+    font-weight : bold; } .QuotePremiumContainer {
+    text-align : center; } .QuotePremiumContentContainer {
+    text-align : right; } .MainQuotePremiumContainer {
+    padding-left : 0px;
+    padding-right : 20px; } .QuoteCompanyImageContainer {
+    float : left;
+    padding : 10px;
+    font-weight : bold;
+    clear : both; }  .QuoteMainCaptionBar {
+    height : 20px;
+    line-height : 20px; } .QuotePremiumSubContainer {
+    border-left : 1px silver solid;
+    padding : 10px;
+    padding-top : 30px;
+    padding-bottom : 30px; } .QuoteCaptionContainer {
+    text-align : left;
+    padding : 3px;
+    background-color : white; } .QuotePaymentsLabel, .QuoteTotalPremiumLabel {
+    font-size : 1.8em;
+    font-weight : bold;}  .CarCoverageGridCaptionHeaderCell {
+    text-align : left;
+    white-space : nowrap; }  .CarCoverageGridCaptionCell {
+    text-align : center;
+    white-space : nowrap; }  .CarCoverageGridCell {
+    white-space : nowrap; }  .QuoteLimitsCaptionCell {
+    white-space : nowrap;
+    text-align : left;
+    padding-right : 15px;} .QuoteLimitsCell {
+    white-space : nowrap;
+    padding-left : 0px;} .QuoteTable {
+    margin-left : 15px; } .QuotePremiumCell { } .QuoteCoverageCell { } .QuoteLimitsTable { } .QuotePremiumCell {
+    vertical-align : middle; } .QuoteCoverageCell {
+    vertical-align : top; } .QuoteDisplayContainer {
+    margin-right : 15px;  }  .QuoteUnitsSeparator {
+    clear : both; } .QuoteUnitHeaderCell {
+    font-weight : bold;
+    padding-right : 10px;
+    text-align : left; } .QuoteUnitCell {
+    padding-right : 10px;
+    text-align : left; } .QuoteNonOwnerContainer { } .QuoteDisclaimerContainer {
+    margin : 0px 20px 20px 20px;
+    font-style : italic; } .ComparisonDisclaimerContainer {
+    font-style : italic;
+    width: 750px;}  .RateErrorMainLabel {
+    font-weight : bold;} .RateErrorMessageContainer {
+    text-align : center;} .ResponseBox, .RequestBox {
+    width : 45%;
+    height : 600px; }  .DriverAssignCaptionContainer {
+    width : 200px; } .DriverAssignEntryRequiredContainer {
+    width : 200px; }  .ExtraDeleteLinkContainer {
+    display : none; }  .MainBackground {
+    background-color: #eee; }  .Spokesperson {
+    margin-left : -150px;
+    margin-top : -95px;
+    z-index : -1; }  .QuoteReturnLinkContainer {
+    margin-top : 20px; }  .CarDetailGridAlternatingRow {
+    background-color : #E5E5E5; }  .DebugContainer  {
+    text-align : right; }   .Hidden {
+    display : none; }  .RateErrorContainer, .RateProgressContainer {
+    background-color : white;
+    border : 1px silver solid;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 10px 30px 10px;  }  .RateErrorMessageContainer, .RateMessageContainer {
+    text-align : center;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    position:relative;} .RateErorMessageCaptionContainer, .RateMessageCaptionContainer {
+    text-align : center;
+    font-weight : bold;
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    margin-top: -16px;
+    width: 750px; } .CaptionBar {
+    background-color : #bdd5e6; } .ButtonsContainer {
+    margin-left: -5px; } .CellContainer { }  .AddInfoHeaderLabel, .ApplicationHeaderLabel {
+    font-weight : bold;
+    font-size : 1.4em; } .AddInfoHeader, .ApplicationHeader {
+    margin-bottom : 25px;
+    margin-top : 15px; } .AddInfoUnitCaptionContainer {
+    font-weight : bold;
+    margin-top : 10px;
+    margin-bottom : 10px; } .AddInfoUnitSeparator {
+    margin-bottom : 20px; } .AddInfoMakeModelLabel {
+    font-weight : bold; } .AddInfoCaptionContainer {
+    width : 225px; } .AddInfoEntryRequiredContainer {
+    width : 225px; } .AddInfoExclusionNotice {
+    margin-top : 10px;
+    text-align : left; } .AddInfoExcludeReasons {
+    margin-left : 20px;
+    margin-top : 10px; } .AddInfoDisclaimerContainer {
+    margin-top : 25px; } .AddInfoHelpListItem {
+    margin-left : 15px; }  .ApplicationCreditCardContainer {
+    display : none; } .ApplicationBankDraftContainer {
+    display : none; } .ApplicationCardSecurityCodeEntry {
+    width : 50px; } .ApplicationTotalPremiumContainer {
+    padding-left : 15px;
+    margin-top : 25px;
+    font-size : 1.2em;} .ApplicationDownPaymentContainer {
+    padding-left : 15px;
+    font-weight : bold;
+    margin-bottom : 10px;
+    font-size : 1.2em;} .ApplicationCaptionHeaderCell {
+    font-weight : bold;
+    padding-right : 10px;
+    text-align : left; } .ApplicationCaptionCell {
+    padding-right : 20px;
+    text-align : left; } .ApplicationUnitHeaderCell {
+    font-weight : bold;
+    padding-right : 10px;
+    text-align : left; } .ApplicationUnitCell {
+    padding-right : 10px;
+    text-align : left; } .ApplicationPremiumHeaderCell {
+    font-weight : bold;
+    padding-right : 10px;
+    text-align : right; } .ApplicationPremiumCell {
+    padding-right : 10px;
+    text-align : right; } .ApplicationLastCell {
+    padding-right : 0px; } .ApplicationPayPlanContainer {
+    margin-top : 15px;
+    padding-left : 15px; } .ApplicationPayPlanGrid {  } .ApplicationSelectionCell {
+    padding-right : 5px; } .ApplicationErrors {
+    color : Red;
+    text-align : left;
+    list-style-type: disc;
+    list-style-position:inside; } .ApplicationPayPlanAlternateRow {
+    background-color : #F0F0F0; } .ApplicationUnitSeparator {
+    margin-bottom : 20px; } .ApplicationEftCaptionPanel {
+    padding-left : 15px;
+    font-weight : bold;
+    margin-bottom : 10px;
+    padding-top : 10px; }  .ApplicationListContainer {
+    width : 350px;
+    height : 150px;
+    overflow-y : scroll;
+    overflow-x : hidden;
+    border : 1px silver solid;
+    padding : 5px; }  .QuoteUnitsMainContainer {
+    margin-bottom : 15px; } .BuyNowQuote {
+    margin-top : 15px; } .ApplicationDoneContainer  {
+    background-color : white;
+    border : 1px silver solid;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    margin : 30px 30px 30px 30px;
+    padding : 50px; }  .ApplicationDoneMessageContainer {
+    text-align : center;
+    font-weight : bold;}  .BindingLoadPanel  {
+    background-color : white;
+    border : 1px silver solid;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    margin : 30px 30px 30px 15px;
+    padding : 50px;
+    text-align : center;  }  .BindingLoadImage {  }  .BindingLoadLabel { }  .BindingErrorLabel {
+    color : Red; } .BindingErrorPanel  {
+    background-color : white;
+    border : 1px silver solid;
+    box-shadow : 0px 0px 6px #808080;
+    border-radius : 5px;
+    margin : 30px 30px 30px 15px;
+    padding : 50px;
+    text-align : center;
+    display : none; }  .BindingReturnButton {
+    width : 200px; } .BindingReturnButton:hover {
+    width : 200px; } .BindingReturnButton:active {
+    width : 200px; }  .VisibleInfoIcon {
+    display : block;
+    float: right;
+    position:relative;
+    top : -3px; }  .CheckBox {
+    position : relative;
+    top : 2px;
+    margin-right : 4px;  }  .CountyEntryContainer {
+    float : left; } .CityEntryContainer {
+    float : left;
+    margin-left : 3px; } .TerritorySeparator {
+    clear : both; }  .InsuredStateContainer {
+    float : left; } .InsuredZipContainer {
+    float : left;
+    margin-left : 3px; } .InsuredCityStateSeparator {
+    clear : both; }  .LicenseStatusContainer {
+    float : left;
+    margin-right: 3px;} .StateLicensedContainer {
+    float : left;} .LicenseEntrySeparator {
+    clear : both; }  .PhoneEntryContainer {
+    float : left; } .PhoneTypeContainer {
+    float : left;
+    margin-left : 3px; } .PhoneEntrySeparator {
+    clear : both; } .LanguageLabelContainer {
+    text-align : right;
+    right : 0px; }  .CarCaptionLabel {
+    font-weight : bold; } .QuoteCarCaptionContainer {
+    float : left;
+    width : 10%; } .QuoteCarCompDedCaptionContainer, .QuoteCarCollDedCaptionContainer {
+    width : 25%; } .QuoteCarCaptionSeparator {
+    clear : both; }  .QuoteCarDataContainer {
+    float: left;
+    width : 10%;} .QuoteCarCompDedContainer, .QuoteCarCollDedContainer {
+    width : 25%; } .QuoteCarSeparator {
+    clear : both; }  .BreakdownCarLabel {
+    float: left;
+    padding-right: 20px;
+    width: 80px; } .BreakdownHeaderCaptions {
+    margin-top: 5px; } .BreakdownHeaderCaption {
+    float: left;
+    padding-right: 10px;
+    text-transform: uppercase;
+    width: 160px;
+    font-weight: bold;} .BreakdownHeaderLabel {
+    float: left;
+    padding-right: 10px;
+    width: 160px;
+    line-height: 2;} .BreakdownCarCaptions {
+    margin-top: 5px;} .BreakdownCarCaption {
+    float: left;
+    padding-right: 20px;
+    text-transform: uppercase;
+    width: 80px;
+    font-weight: bold;} .BreakdownCarPDCaptionContainer {
+    width: 200px;} .BreakdownCarPDLabel {
+    width: 200px;} .BreakdownCarPDLabelContainer {
+    width: 200px;} .BreakdownCarYearLabel {
+    width: 60px;} .BreakdownLimits{
+    position: relative;
+    margin-top: 10px; } .BreakdownLimitsCaptions {
+    text-transform: uppercase;
+    float: left;
+    padding-right: 60px;
+    line-height: 2;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    font-weight: bold;}  .BreakdownLimitsCaptions
+    span { display:block; } .BreakdownLimitsLabels {
+    float: left;
+    line-height: 2;
+    position: absolute;
+    width: 300px;
+    left: 300px; }  .BreakdownLimitsLabels
+    span { display:block; } .BreakdownHeaderTotalLabel {
+    padding-right: 10px;
+    width: 75px;
+    font-size: 120%;
+    line-height: 1;
+    color: dodgerblue;}  .BreakdownHeaderTermLabel {
+    padding-left: 10px; }  .BreakdownCarYearLabelContainer{
+    width: 45px; } .BreakdownCarYearCaptionContainer {
+    width: 45px; } .BreakdownCarMakeCaptionContainer{
+    width: 116px;
+    padding-right: 5px;} .BreakdownCarMakeLabelContainer{
+    width: 116px;
+    padding-right: 5px;} .BreakdownCarModelCaptionContainer{
+    width: 116px;
+    padding-right: 5px;} .BreakdownCarModelLabelContainer{
+    width: 116px;
+    padding-right: 5px;} .BreakdownCarPDLabelContainer{} .BreakdownCarTowingLabelContainer{} .BreakdownCarRentalLabelContainer{
+    padding-right: 55px; } .BreakdownCarRentalCaptionContainer{
+    padding-right: 55px; }  .ViewQuoteButtonContainer {
+    position:absolute;
+    bottom:0;
+    right:0;  }  .CompanyNameImageContainer {
+    padding-left: 25px; }  .PreviewRow     {
+    border: 1px solid #E0E0E0;
+    vertical-align: bottom;
+    border-bottom: 10px solid #E0E0E0;
+    background-color: #FAFAFA;
+    width: 750px;
+    height: 120px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    position:relative;  }   .ComparisonNumberContainer {
+    position: absolute;
+    float: left;
+    top: 50px;   }  .ComparisonCaptionContainer {
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    width: 155px;  }  .FlatButton {
+    font-size : 1.1em;
+    padding : 5px 5px;
+    text-decoration : none;
+    cursor : pointer;
+    width: 95px;
+    height: 18px;
+    color: white;
+    height: 18px;
+    margin: 0;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    right: 2px;
+    bottom: 15px;
+    border-radius: 5%;  }  .ContactMeButton {
+    background-color: #207ec8;
+    color: white; } .BreakdownContainer {
+    position: absolute;
+    width: 800px;
+    display: none;
+    color: #696969;
+    padding-left: 25px;
+    top: 110px; }  .ViewQuoteButton {
+    width:90px;
+    background-color: #FAFAFA;
+    border-top:none;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #e0e0e0;
+    height:0;
+    line-height: 26px;
+    text-decoration:none;
+    display:block;
+    color: #808080;
+    padding-left:10px;
+    cursor: pointer; } .ViewQuoteButtonClose {
+    display: none;
+    color:dodgerblue;} .ComparisonBuyNowButton, .ComparisonCallToBuyButton {
+    background-color: #FF5722;
+    bottom: 50px;  }  .ComparisonTextField {
+    text-align : left;
+    white-space :normal;
+    padding : 5px;
+    border-right : 1px silver solid;} .ComparisonTextHeader {
+    text-align : left;
+    white-space :nowrap;
+    padding : 5px; } .ComparisonNumberField {
+    padding-right : 5px;
+    padding-left : 5px;
+    text-align : center;
+    padding-top: 50px;
+    vertical-align: top; } .ComparisonNumberHeader {
+    text-align : right;
+    text-align : center;
+    padding : 3px; } .ComparisonNumber {
+    font-size : 1.8em; } .ComparisonNumberCaption {
+    color:#96a0ac;} .ComparisonImageField {
+    text-align : center;
+    padding-bottom: 40px;
+    vertical-align: top; } .ComparisonCompanyImage {
+    position: absolute;
+    top: 10px;
+    max-width: 150px;
+    max-height: 70px; } .ComparisonGridContainer {
+    padding-left : 0px;
+    padding-right : 10px;
+    padding-bottom : 20px;
+    width: 750px;
+    margin: 0 auto;  } .CompanyComparisonRowExpanded {
+    height: 420px;  }  .QuoteDetailCaptionLabel {
+    font-size : 1.3em;
+    font-weight : bold;
+    margin-bottom : 5px; } .ComparisonBreakdownProgressPanel {
+    float:left;
+    padding-top : 5px; } .ComparisonLastCell {
+    padding-left : 16px;
+    padding-bottom : 15px;
+    padding-top : 100px;
+    position: relative;
+    width: 160px;} .ComparisonNameLabel {
+    color: #96a0ac; }  .RateProgressImageContainer  {
+    width : 220px;
+    height : 19px;
+    margin-left : auto;
+    margin-right : auto;
+    background-image : url(Images/progress.gif);
+    position: relative;
+    top: 10px;  }  .ComparisonSortContainer {
+    text-align : right;
+    float: right;
+    line-height : 30px;
+    height : 30px;
+    padding-bottom: 10px; } .ComparisonSortCaptionContainer {
+    text-align : right;
+    float: right;
+    line-height : 30px;
+    height : 30px;
+    margin-right : 5px; }  .ComparisonHeaderContainer {
+    font-size : 1.3em;
+    font-weight : bold;
+    margin-bottom : 5px;
+    float:left; }  .ComparisonSortSeparator {
+    clear : both; } .ComparisonContainer  {
+    position: relative;
+    float:left;
+    padding-top: 80px;
+    width:130px;
+    height: 18px;  } .ComparisonImageContainer{} .DownPaymentContainer {
+    padding-left: 65px; } .MobileMonthlyPremium {
+    display: none;} .ComparisonSortPanel{
+    width: 750px;} .BreakdownHeaderTermLabelMobile{
+    display: none;} .FinalTextLabel{
+    position: absolute;
+    left: auto;
+    right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 750px;
+    padding-top: 113px; } .FinalTextLabelContainer{
+    position: relative;
+    height: 250px;} .MobileBreak {
+    display: none; } .MobileRequired {
+    display: none; } .CarInfoSection {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto; } .CarCoverageSection {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto; } .EntrySection {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;} .BreakdownCarDetailsContainer {
+    width: 50px;
+    float: left;
+    height: 40px;
+    padding-right: 60px;} .BreakdownCarYearLabelsContainer {
+    padding-right: 10px;} .BreakdownCarMakeLabelsContainer {} .BreakdownCarModelLabelsContainer {} .BreakdownCarCompAndCollLabelsContainer {
+    padding-right: 110px;
+    width: 100px; } .BreakdownCarTowingLabelsContainer {} .BreakdownCarRentalLablesContainer {} .ItcDateEntry {
+    width: 40px;
+    text-align: center;} .EffDateAlertContainer  {
+    display : none;
+    background-image : url(images/warningsmall.png);
+    width : 20px;
+    height : 20px;
+    float : left;
+    margin-left : 2px;
+    margin-top : 5px;
+    cursor : pointer; } .DateCaptionContainer {
+    width: 260px;} .DateRequiredContainer {
+    width: 260px;} .HeaderLabel {
+    font-weight: bold;
+    font-size: 14pt;
+    margin-left: -14px; } .PageHeader {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 750px;
+    text-align: left; } .SubHeaderLabel {
+    font-size: 14px;
+    margin-left: -14px;} .GridButtonContainer {
+    padding-bottom: 4px; } .DriverIncludedlabelContainer {
+    text-align: right;
+    margin-bottom:-15px;
+    margin-top: -5px;
+    margin-right: 2px;
+    padding-bottom: 10px; } .EditDriverButtonContainer {
+    padding-bottom: 35px;
+    padding-top: 20px;} .DeleteDriverButtonContainer {
+    width: 100px;
+    padding-bottom: 45px; } .AddDriverButtonContainer {
+    width: 100px;
+    padding-top: 20px;} .DeleteButton {
+    width: 100px;
+    float: right; } .EditButton {
+    float: right;} .AddDriverButton {
+    width: 130px;
+    float: right; } .AddDriverButton:hover {
+    width: 130px;} .DeleteButton:hover {
+    width: 100px;} .driverRow {
+    width: 750px;
+    border-bottom: 1px solid black;
+    height: 90px;} .driverSelectedRow {
+    height: 80px; } .DriverNameLabel{
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: 'Open Sans', sans-serif;} .DriverLabel{
+    padding-top: 5px;} .DriverFirstCell {
+    padding-left: 25px;}  .CarIncludedlabelContainer {
+    text-align: right;
+    margin-bottom:-15px;
+    margin-top: -5px;} .EditCarButtonContainer {
+    padding-bottom: 35px;
+    padding-top: 20px;} .DeleteCarButtonContainer {
+    width: 100px;
+    padding-bottom: 45px; } .AddCarButtonContainer {
+    width: 100px;
+    padding-top: 20px;} .AddCarButton {
+    width: 140px;
+    float: right; } .AddCarButton:hover {
+    width: 140px;} .carRow {
+    width: 750px;
+    border-bottom: 1px solid black;
+    height: 90px;} .carSelectedRow {
+    height: 80px; } .CarDetailsLabel{
+    font-size: 11pt;
+    padding-top: 5px;} .CarFirstCell {
+    padding-left: 25px;} .AddUddDriverButtonContainer {
+    padding-left: 25px;
+    padding-top: 30px; } .AddUddCarButtonContainer {
+    padding-left: 10px;
+    padding-top: 30px; } .AddUddCarButton {
+    width: 90px; } .AddUddCarButton:hover {
+    width: 90px; }
+    span#ctl00_CPH_AddressLabel {     font-weight: bold; }
+    span#ctl00_CPH_CountyCityLabel {     font-weight: bold; }
+    span#ctl00_CPH_StateZipLabel {     font-weight: bold; }
+    span#ctl00_CPH_EmailAddressLabel {     font-weight: bold; }
+    span#ctl00_StepRepeater_ctl08_StepSubLabel {     color: #033649; }
+    span#ctl00_StepRepeater_ctl07_StepSubLabel {     color: #033649; }
+    span#ctl00_StepRepeater_ctl02_StepSubLabel {     color: #033649; }
+    a#ctl00_TermsLink {     text-decoration: none;
+    color: #2b9a9c; }
+    a#ctl00_ReturnLink {     color: #2b9a9c;
+    text-decoration: none; }
+    padding: 2;
+}
+
+div#ctl00_CPH_CarMakePanel {
+    padding: 20px 10px;
+}
+
+.EntrySection.CarCoveragermationSection {
+    padding: 20px;
+}
+
+div#ctl00_CPH_CarCompPanel {
+    /* padding: 20px 10px; */
+}
+
+div#ctl00_CPH_CarCollCaptionPanel {
+    padding: 20px 0px;
+}
+
+select#ctl00_CPH_CollisionCoverageEntry {
+    margin: 20px 0px;
+}
+
+span#ctl00_CPH_CarMakeRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_ModelYearRequiredEntry {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_CarUsageRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_CarModelRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_AddressRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_FirstNameRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_LastNameRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_EmailRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_ContactCellRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_ZipCodeRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_LeadSourceLabel {
+}
+
+span#ctl00_CPH_LeadSourceLabel {
+    /* letter-spacing: 1px; */
+}
+
+span#ctl00_CPH_PriorInsuranceLabel {
+    padding-bottom: 180px;
+}
+
+div#ctl00_CPH_LeadSourcePanel {
+    padding-top: 40px;
+}
+
+span#ctl00_CPH_LeadSourceLabel {
+}
+
+span#ctl00_CPH_LeadSourceLabel {
+    /* letter-spacing: 1px; */
+}
+
+span#ctl00_CPH_PriorInsuranceLabel {
+    padding-bottom: 180px;
+}
+
+div#ctl00_CPH_LeadSourcePanel {
+    padding-top: 40px;
+}
+
+span#ctl00_CPH_CountyCityRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_EmailAddressRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_EffDateEntry_DateRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_FCRARequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_FCRALabel {
+    font-size: 14px;
+}
+
+a#ctl00_CPH_FCRAPrivacyLink {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_FCRALabel2 {
+    font-size: 14px;
+}
+
+div#ctl00_CPH_LanguagePanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_FirstNamePanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_LastNamePanel {
+    padding-bottom: 30px;
+}
+
+/*div#ctl00_CPH_EmailAlertPanel {
+    padding-bottom: 30px;
+}*/
+
+div#ctl00_CPH_WelcomeEmailPanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_ContactPhonePanel {
+    padding-bottom: 30px;
+}
+
+span#ctl00_CPH_WelcomeLabel {
+    display: none;
+}
+
+div#ctl00_CPH_Address1Panel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_CountyCityPanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_StateZipPanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_PriorInsurancePanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_PriorExpDateEntry_DatePanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_PriorExpDateEntry_RequiredPanel {
+    padding-top: 26px;
+    /* font-size: 14px; */
+}
+
+span#ctl00_CPH_FirstNameReqiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_DOBDateEntry_DateRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_MaritalRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_RelationRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_LicenseStatusRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_StateLicensedRequiredLabel {
+    font-size: 14px;
+}
+
+span#ctl00_CPH_AgeLicensedRequiredLabel {
+    font-size: 14px;
+}
+
+div#ctl00_CPH_DOBDateEntry_DatePanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_GenderPanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_MaritalPanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_AgeLicensedPanel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_SR22Panel {
+    padding-bottom: 30px;
+}
+
+div#ctl00_CPH_HomeOwnerPanel {
+    padding-bottom: 30px;
+}
